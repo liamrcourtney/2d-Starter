@@ -13,9 +13,57 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-10-29T12:52:21.534+02:00
+  lastUpdatedAtString: 2020-10-29T12:53:59.933+02:00
   initializedAtString: 2020-10-29T10:33:38.545+02:00
   log:
+  - commitID: d8feb0dcc8c614b9d4e407a990811285ed29a33c
+    mergeA: 
+    mergeB: 
+    authorName: liamrcourtney
+    authorEmail: liamcdaa@gmail.com
+    commitEmail: liamcdaa@gmail.com
+    commitName: liamrcourtney
+    summary: github
+    description: 
+    timeString: 2020-10-29T12:53:51.000+02:00
+    commitTimeString: 2020-10-29T12:53:51.000+02:00
+    changes:
+    - path: 2dstarter\Library\gfu\cache\branches.yaml
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2dstarter\Library\gfu\cache\gitlocks.yaml
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2dstarter\Library\gfu\cache\gitlog.yaml
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2dstarter\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2dstarter\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2dstarter\Library\gfu\cache\gituser.yaml
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\gfu\cache\gituser.yaml
+      projectPath: Library\gfu\cache\gituser.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
   - commitID: b7aca563900d525ee2404a7c68bef6f28978a719
     mergeA: 
     mergeB: 

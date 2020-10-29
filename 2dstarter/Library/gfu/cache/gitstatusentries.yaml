@@ -13,9 +13,276 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-10-29T12:52:47.273+02:00
+  lastUpdatedAtString: 2020-10-29T14:55:07.109+02:00
   initializedAtString: 2020-10-29T10:32:31.245+02:00
   entries:
+  - path: 2dstarter\Assets\Mario_Tiles.meta
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\Mario_Tiles.meta
+    projectPath: Assets\Mario_Tiles.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Assets\Mario_Tiles\mario1.asset
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\Mario_Tiles\mario1.asset
+    projectPath: Assets\Mario_Tiles\mario1.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Assets\Mario_Tiles\mario1.asset.meta
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\Mario_Tiles\mario1.asset.meta
+    projectPath: Assets\Mario_Tiles\mario1.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Assets\Mario_Tiles\mario2.asset
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\Mario_Tiles\mario2.asset
+    projectPath: Assets\Mario_Tiles\mario2.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Assets\Mario_Tiles\mario2.asset.meta
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\Mario_Tiles\mario2.asset.meta
+    projectPath: Assets\Mario_Tiles\mario2.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Assets\Mario_Tiles\mario3.asset
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\Mario_Tiles\mario3.asset
+    projectPath: Assets\Mario_Tiles\mario3.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Assets\Mario_Tiles\mario3.asset.meta
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\Mario_Tiles\mario3.asset.meta
+    projectPath: Assets\Mario_Tiles\mario3.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Assets\Mario_Tiles\mario4.asset
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\Mario_Tiles\mario4.asset
+    projectPath: Assets\Mario_Tiles\mario4.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Assets\Mario_Tiles\mario4.asset.meta
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\Mario_Tiles\mario4.asset.meta
+    projectPath: Assets\Mario_Tiles\mario4.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Assets\Mario_Tiles\mario5.asset
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\Mario_Tiles\mario5.asset
+    projectPath: Assets\Mario_Tiles\mario5.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Assets\Mario_Tiles\mario5.asset.meta
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\Mario_Tiles\mario5.asset.meta
+    projectPath: Assets\Mario_Tiles\mario5.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Assets\Mario_Tiles\mario6.asset
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\Mario_Tiles\mario6.asset
+    projectPath: Assets\Mario_Tiles\mario6.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Assets\Mario_Tiles\mario6.asset.meta
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\Mario_Tiles\mario6.asset.meta
+    projectPath: Assets\Mario_Tiles\mario6.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Assets\mariotiles.meta
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\mariotiles.meta
+    projectPath: Assets\mariotiles.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Assets\mariotiles\mario pallete.prefab
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\mariotiles\mario
+      pallete.prefab
+    projectPath: Assets\mariotiles\mario pallete.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Assets\mariotiles\mario pallete.prefab.meta
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\mariotiles\mario
+      pallete.prefab.meta
+    projectPath: Assets\mariotiles\mario pallete.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Assets\Scenes\1.unity
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\Scenes\1.unity
+    projectPath: Assets\Scenes\1.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: 2dstarter\Assets\sprites\mario1.png
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\sprites\mario1.png
+    projectPath: Assets\sprites\mario1.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Assets\sprites\mario1.png.meta
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\sprites\mario1.png.meta
+    projectPath: Assets\sprites\mario1.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Assets\sprites\mario2.png
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\sprites\mario2.png
+    projectPath: Assets\sprites\mario2.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Assets\sprites\mario2.png.meta
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\sprites\mario2.png.meta
+    projectPath: Assets\sprites\mario2.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Assets\sprites\mario3.png
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\sprites\mario3.png
+    projectPath: Assets\sprites\mario3.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Assets\sprites\mario3.png.meta
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\sprites\mario3.png.meta
+    projectPath: Assets\sprites\mario3.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Assets\sprites\mario4.png
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\sprites\mario4.png
+    projectPath: Assets\sprites\mario4.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Assets\sprites\mario4.png.meta
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\sprites\mario4.png.meta
+    projectPath: Assets\sprites\mario4.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Assets\sprites\mario5.png
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\sprites\mario5.png
+    projectPath: Assets\sprites\mario5.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Assets\sprites\mario5.png.meta
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\sprites\mario5.png.meta
+    projectPath: Assets\sprites\mario5.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Assets\sprites\mario6.png
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\sprites\mario6.png
+    projectPath: Assets\sprites\mario6.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Assets\sprites\mario6.png.meta
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\sprites\mario6.png.meta
+    projectPath: Assets\sprites\mario6.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Assets\TilePallete\ice and stone.prefab
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\TilePallete\ice
+      and stone.prefab
+    projectPath: Assets\TilePallete\ice and stone.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: 2dstarter\Assets\tiles\mario1.png
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\tiles\mario1.png
+    projectPath: Assets\tiles\mario1.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: 2dstarter\Assets\tiles\mario1.png.meta
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\tiles\mario1.png.meta
+    projectPath: Assets\tiles\mario1.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: 2dstarter\Assets\tiles\mario2.png
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\tiles\mario2.png
+    projectPath: Assets\tiles\mario2.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: 2dstarter\Assets\tiles\mario2.png.meta
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\tiles\mario2.png.meta
+    projectPath: Assets\tiles\mario2.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: 2dstarter\Assets\tiles\mario3.png
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\tiles\mario3.png
+    projectPath: Assets\tiles\mario3.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: 2dstarter\Assets\tiles\mario3.png.meta
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\tiles\mario3.png.meta
+    projectPath: Assets\tiles\mario3.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: 2dstarter\Assets\tiles\mario4.png
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\tiles\mario4.png
+    projectPath: Assets\tiles\mario4.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: 2dstarter\Assets\tiles\mario4.png.meta
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\tiles\mario4.png.meta
+    projectPath: Assets\tiles\mario4.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: 2dstarter\Assets\tiles\mario5.png
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\tiles\mario5.png
+    projectPath: Assets\tiles\mario5.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: 2dstarter\Assets\tiles\mario5.png.meta
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\tiles\mario5.png.meta
+    projectPath: Assets\tiles\mario5.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: 2dstarter\Assets\tiles\mario6.png
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\tiles\mario6.png
+    projectPath: Assets\tiles\mario6.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: 2dstarter\Assets\tiles\mario6.png.meta
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\tiles\mario6.png.meta
+    projectPath: Assets\tiles\mario6.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: 2dstarter\Library\assetDatabase3
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\assetDatabase3
+    projectPath: Library\assetDatabase3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: 2dstarter\Library\CrashedAssetImports.txt
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\CrashedAssetImports.txt
+    projectPath: Library\CrashedAssetImports.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: 2dstarter\Library\gfu\cache\branches.yaml
     fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
@@ -46,12 +313,282 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: 2dstarter\Library\gfu\cache\gituser.yaml
-    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\gfu\cache\gituser.yaml
-    projectPath: Library\gfu\cache\gituser.yaml
+  - path: 2dstarter\Library\GridBrush\UnityEditor.GridBrush.asset
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\GridBrush\UnityEditor.GridBrush.asset
+    projectPath: Library\GridBrush\UnityEditor.GridBrush.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: 2dstarter\Library\metadata\0e\0efe1d1e9240d2040a48f321207146de
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\0e\0efe1d1e9240d2040a48f321207146de
+    projectPath: Library\metadata\0e\0efe1d1e9240d2040a48f321207146de
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: 2dstarter\Library\metadata\0e\0efe1d1e9240d2040a48f321207146de.info
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\0e\0efe1d1e9240d2040a48f321207146de.info
+    projectPath: Library\metadata\0e\0efe1d1e9240d2040a48f321207146de.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Library\metadata\13\13a3d0ea8ca346b46aea61e8c24ffa2d
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\13\13a3d0ea8ca346b46aea61e8c24ffa2d
+    projectPath: Library\metadata\13\13a3d0ea8ca346b46aea61e8c24ffa2d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Library\metadata\13\13a3d0ea8ca346b46aea61e8c24ffa2d.info
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\13\13a3d0ea8ca346b46aea61e8c24ffa2d.info
+    projectPath: Library\metadata\13\13a3d0ea8ca346b46aea61e8c24ffa2d.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Library\metadata\27\2786287ca1b5cb244890c8ee86024ed4
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\27\2786287ca1b5cb244890c8ee86024ed4
+    projectPath: Library\metadata\27\2786287ca1b5cb244890c8ee86024ed4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Library\metadata\27\2786287ca1b5cb244890c8ee86024ed4.info
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\27\2786287ca1b5cb244890c8ee86024ed4.info
+    projectPath: Library\metadata\27\2786287ca1b5cb244890c8ee86024ed4.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Library\metadata\2a\2ab148075dee160468c3afa4adba623e
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\2a\2ab148075dee160468c3afa4adba623e
+    projectPath: Library\metadata\2a\2ab148075dee160468c3afa4adba623e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Library\metadata\2a\2ab148075dee160468c3afa4adba623e.info
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\2a\2ab148075dee160468c3afa4adba623e.info
+    projectPath: Library\metadata\2a\2ab148075dee160468c3afa4adba623e.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Library\metadata\2c\2c885b38e49558f48bcdad6105339890
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\2c\2c885b38e49558f48bcdad6105339890
+    projectPath: Library\metadata\2c\2c885b38e49558f48bcdad6105339890
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Library\metadata\2c\2c885b38e49558f48bcdad6105339890.info
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\2c\2c885b38e49558f48bcdad6105339890.info
+    projectPath: Library\metadata\2c\2c885b38e49558f48bcdad6105339890.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Library\metadata\3d\3d6269d32c6b99f4c8c1526b5b043d5d
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\3d\3d6269d32c6b99f4c8c1526b5b043d5d
+    projectPath: Library\metadata\3d\3d6269d32c6b99f4c8c1526b5b043d5d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Library\metadata\3d\3d6269d32c6b99f4c8c1526b5b043d5d.info
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\3d\3d6269d32c6b99f4c8c1526b5b043d5d.info
+    projectPath: Library\metadata\3d\3d6269d32c6b99f4c8c1526b5b043d5d.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Library\metadata\51\5130c632caeedde4f9e1ce6631b6fa1b
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\51\5130c632caeedde4f9e1ce6631b6fa1b
+    projectPath: Library\metadata\51\5130c632caeedde4f9e1ce6631b6fa1b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: 2dstarter\Library\metadata\51\5130c632caeedde4f9e1ce6631b6fa1b.info
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\51\5130c632caeedde4f9e1ce6631b6fa1b.info
+    projectPath: Library\metadata\51\5130c632caeedde4f9e1ce6631b6fa1b.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: 2dstarter\Library\metadata\52\526360592953fa443a25babc36267fbd
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\52\526360592953fa443a25babc36267fbd
+    projectPath: Library\metadata\52\526360592953fa443a25babc36267fbd
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: 2dstarter\Library\metadata\52\526360592953fa443a25babc36267fbd.info
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\52\526360592953fa443a25babc36267fbd.info
+    projectPath: Library\metadata\52\526360592953fa443a25babc36267fbd.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: 2dstarter\Library\metadata\55\550aa91b93712fb49a277df7d05f2787
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\55\550aa91b93712fb49a277df7d05f2787
+    projectPath: Library\metadata\55\550aa91b93712fb49a277df7d05f2787
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Library\metadata\55\550aa91b93712fb49a277df7d05f2787.info
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\55\550aa91b93712fb49a277df7d05f2787.info
+    projectPath: Library\metadata\55\550aa91b93712fb49a277df7d05f2787.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Library\metadata\5e\5e407320b12a98e48b63938b83c7650a
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\5e\5e407320b12a98e48b63938b83c7650a
+    projectPath: Library\metadata\5e\5e407320b12a98e48b63938b83c7650a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: 2dstarter\Library\metadata\5e\5e407320b12a98e48b63938b83c7650a.info
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\5e\5e407320b12a98e48b63938b83c7650a.info
+    projectPath: Library\metadata\5e\5e407320b12a98e48b63938b83c7650a.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: 2dstarter\Library\metadata\6b\6b44cfcc6af375e4a99cbf39b817e078
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\6b\6b44cfcc6af375e4a99cbf39b817e078
+    projectPath: Library\metadata\6b\6b44cfcc6af375e4a99cbf39b817e078
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Library\metadata\6b\6b44cfcc6af375e4a99cbf39b817e078.info
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\6b\6b44cfcc6af375e4a99cbf39b817e078.info
+    projectPath: Library\metadata\6b\6b44cfcc6af375e4a99cbf39b817e078.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Library\metadata\6d\6d190f66825f88849b2a3859025b2963
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\6d\6d190f66825f88849b2a3859025b2963
+    projectPath: Library\metadata\6d\6d190f66825f88849b2a3859025b2963
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Library\metadata\6d\6d190f66825f88849b2a3859025b2963.info
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\6d\6d190f66825f88849b2a3859025b2963.info
+    projectPath: Library\metadata\6d\6d190f66825f88849b2a3859025b2963.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Library\metadata\76\7626a108ef4360440bb9d13c00c79988
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\76\7626a108ef4360440bb9d13c00c79988
+    projectPath: Library\metadata\76\7626a108ef4360440bb9d13c00c79988
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: 2dstarter\Library\metadata\76\7626a108ef4360440bb9d13c00c79988.info
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\76\7626a108ef4360440bb9d13c00c79988.info
+    projectPath: Library\metadata\76\7626a108ef4360440bb9d13c00c79988.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: 2dstarter\Library\metadata\7c\7c9e33acb45f8884886a0e91f57a1da3
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\7c\7c9e33acb45f8884886a0e91f57a1da3
+    projectPath: Library\metadata\7c\7c9e33acb45f8884886a0e91f57a1da3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Library\metadata\7c\7c9e33acb45f8884886a0e91f57a1da3.info
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\7c\7c9e33acb45f8884886a0e91f57a1da3.info
+    projectPath: Library\metadata\7c\7c9e33acb45f8884886a0e91f57a1da3.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Library\metadata\82\82668187f2b0f7046a177b037038f8d7
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\82\82668187f2b0f7046a177b037038f8d7
+    projectPath: Library\metadata\82\82668187f2b0f7046a177b037038f8d7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Library\metadata\82\82668187f2b0f7046a177b037038f8d7.info
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\82\82668187f2b0f7046a177b037038f8d7.info
+    projectPath: Library\metadata\82\82668187f2b0f7046a177b037038f8d7.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Library\metadata\98\980c45f26b882a348a7ebdac3fcbaed3
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\98\980c45f26b882a348a7ebdac3fcbaed3
+    projectPath: Library\metadata\98\980c45f26b882a348a7ebdac3fcbaed3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Library\metadata\98\980c45f26b882a348a7ebdac3fcbaed3.info
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\98\980c45f26b882a348a7ebdac3fcbaed3.info
+    projectPath: Library\metadata\98\980c45f26b882a348a7ebdac3fcbaed3.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Library\metadata\9d\9d7cd44c656c0e04ca218dae303d0e2b
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\9d\9d7cd44c656c0e04ca218dae303d0e2b
+    projectPath: Library\metadata\9d\9d7cd44c656c0e04ca218dae303d0e2b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: 2dstarter\Library\metadata\9d\9d7cd44c656c0e04ca218dae303d0e2b.info
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\9d\9d7cd44c656c0e04ca218dae303d0e2b.info
+    projectPath: Library\metadata\9d\9d7cd44c656c0e04ca218dae303d0e2b.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: 2dstarter\Library\metadata\aa\aa732038787722544bc8804ace538188
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\aa\aa732038787722544bc8804ace538188
+    projectPath: Library\metadata\aa\aa732038787722544bc8804ace538188
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Library\metadata\aa\aa732038787722544bc8804ace538188.info
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\aa\aa732038787722544bc8804ace538188.info
+    projectPath: Library\metadata\aa\aa732038787722544bc8804ace538188.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Library\metadata\c0\c05c2e342a53a5d4b9caeac2e1f3f023
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\c0\c05c2e342a53a5d4b9caeac2e1f3f023
+    projectPath: Library\metadata\c0\c05c2e342a53a5d4b9caeac2e1f3f023
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Library\metadata\c0\c05c2e342a53a5d4b9caeac2e1f3f023.info
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\c0\c05c2e342a53a5d4b9caeac2e1f3f023.info
+    projectPath: Library\metadata\c0\c05c2e342a53a5d4b9caeac2e1f3f023.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Library\metadata\cb\cb1d8e3a81a7dfe4c85458d02a5505be
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\cb\cb1d8e3a81a7dfe4c85458d02a5505be
+    projectPath: Library\metadata\cb\cb1d8e3a81a7dfe4c85458d02a5505be
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Library\metadata\cb\cb1d8e3a81a7dfe4c85458d02a5505be.info
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\cb\cb1d8e3a81a7dfe4c85458d02a5505be.info
+    projectPath: Library\metadata\cb\cb1d8e3a81a7dfe4c85458d02a5505be.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Library\metadata\da\da28e8cbf742df747af0fe05aa8394be
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\da\da28e8cbf742df747af0fe05aa8394be
+    projectPath: Library\metadata\da\da28e8cbf742df747af0fe05aa8394be
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: 2dstarter\Library\metadata\da\da28e8cbf742df747af0fe05aa8394be.info
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\da\da28e8cbf742df747af0fe05aa8394be.info
+    projectPath: Library\metadata\da\da28e8cbf742df747af0fe05aa8394be.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: 2dstarter\Library\metadata\fe\fe4178fef19fc404b8d3add76f3e27a9
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\fe\fe4178fef19fc404b8d3add76f3e27a9
+    projectPath: Library\metadata\fe\fe4178fef19fc404b8d3add76f3e27a9
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: 2dstarter\Library\metadata\fe\fe4178fef19fc404b8d3add76f3e27a9.info
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\fe\fe4178fef19fc404b8d3add76f3e27a9.info
+    projectPath: Library\metadata\fe\fe4178fef19fc404b8d3add76f3e27a9.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: 2dstarter\Library\TilemapEditorUserSettings.asset
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\TilemapEditorUserSettings.asset
+    projectPath: Library\TilemapEditorUserSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: 2dstarter\Temp\UnityLockfile
     fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
