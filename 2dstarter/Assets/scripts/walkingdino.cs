@@ -1,28 +1,41 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class walkingdino : MonoBehaviour
 {
+    public Vector2 movement;
+    public Rigidbody2D rb;
 
-    [SerializeField]
-    private float speed;
+   
+    public float speed=5f;
+    
+    
 
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Character speed: " + speed);
+        UnityEngine.Debug.Log("Character speed: " + speed);
     }
 
     // Update is called once per frame
     void Update()
     {
-        MoveCharacter();
+       movement.x = Input.GetAxisRaw("Horizontal");
+       
+        //MoveCharacter();
     }
 
-    void MoveCharacter()
+    void FixedUpdate()
     {
-        float x = Input.GetAxis("Horizontal") * speed;
+       // rb.MovePosition(rb.position + movement + speed + Time.fixedDeltaTime);
+    }
+
+
+   // void MoveCharacter()
+    //{
+    //    Input.GetAxisRaw("Horizontal") * speed;
 
         
-    }
+    //}
 }
