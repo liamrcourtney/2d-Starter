@@ -11,12 +11,16 @@ public class PlayerMovement : MonoBehaviour
     private float speed;
     [SerializeField]
     private float vSpeed;
+    [SerializeField]
+    private LayerMask Ground;
     private Rigidbody2D rigidBody;
+    private float halfHeight;
 
     void Start()
     {
      //   Debug.Log("Speed: " + speed);
         rigidBody = GetComponent<Rigidbody2D>();
+        halfHeight = (GetComponent<SpriteRenderer>().bounds.size.y / 2) + 0.1f;
     }
 
 
@@ -37,9 +41,15 @@ public class PlayerMovement : MonoBehaviour
     
     void Jump()
     {
+
         if (Input.GetKeyDown(KeyCode.W))
         {
-            rigidBody.velocity = new Vector3(0, vSpeed);
+            RaycastHit2D hit2D = Physics2D.Raycast(transform.position, Vector2.down, 3f, Ground);
+            if (hit2D && hit2D.distance < halfHeight)
+            {
+                rigidBody.velocity = new Vector3(0, vSpeed);
+
+            }
         }
     } 
 }

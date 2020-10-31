@@ -218,7 +218,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  vSpeed: 3
+  vSpeed: 8
+  Ground:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!61 &15528206
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -359,7 +362,7 @@ GameObject:
   m_Component:
   - component: {fileID: 958108889}
   - component: {fileID: 958108888}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -405,7 +408,7 @@ GameObject:
   - component: {fileID: 1127376034}
   - component: {fileID: 1127376033}
   - component: {fileID: 1127376032}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
