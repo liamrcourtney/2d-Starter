@@ -13,9 +13,333 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-10-31T17:08:02.708+02:00
+  lastUpdatedAtString: 2020-10-31T17:42:38.841+02:00
   initializedAtString: 2020-10-31T16:54:37.946+02:00
   log:
+  - commitID: 9bf1cf6cb86bee1a60e61dbca415fc6904e453f6
+    mergeA: 
+    mergeB: 
+    authorName: liamrcourtney
+    authorEmail: liamcdaa@gmail.com
+    commitEmail: liamcdaa@gmail.com
+    commitName: liamrcourtney
+    summary: jumping update pt4
+    description: 
+    timeString: 2020-10-31T17:42:27.000+02:00
+    commitTimeString: 2020-10-31T17:42:27.000+02:00
+    changes:
+    - path: 2dstarter\Temp\UnityTempFile-4d1f7ee5dd007bb4d9ad4c9b6b12cad3
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-4d1f7ee5dd007bb4d9ad4c9b6b12cad3
+      projectPath: Temp\UnityTempFile-4d1f7ee5dd007bb4d9ad4c9b6b12cad3
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: 2dstarter\Temp\UnityTempFile-500621679b64d734b8cb3086be8a3010
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-500621679b64d734b8cb3086be8a3010
+      projectPath: Temp\UnityTempFile-500621679b64d734b8cb3086be8a3010
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: 2dstarter\Temp\UnityTempFile-5792f51b5b4837f4bba17108c222224e
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-5792f51b5b4837f4bba17108c222224e
+      projectPath: Temp\UnityTempFile-5792f51b5b4837f4bba17108c222224e
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: 2dstarter\Temp\UnityTempFile-632145c51217e20418e48ff560132715
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-632145c51217e20418e48ff560132715
+      projectPath: Temp\UnityTempFile-632145c51217e20418e48ff560132715
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: 2dstarter\Temp\UnityTempFile-71a96d71110817743b9ae2880723d8eb
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-71a96d71110817743b9ae2880723d8eb
+      projectPath: Temp\UnityTempFile-71a96d71110817743b9ae2880723d8eb
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: 2dstarter\Temp\UnityTempFile-9e4d9ff07bc9d6041a93a114bc1e801a
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-9e4d9ff07bc9d6041a93a114bc1e801a
+      projectPath: Temp\UnityTempFile-9e4d9ff07bc9d6041a93a114bc1e801a
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: 2dstarter\Temp\UnityTempFile-9ec8f1d78f95e7f4c9e82e558c36c32b
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-9ec8f1d78f95e7f4c9e82e558c36c32b
+      projectPath: Temp\UnityTempFile-9ec8f1d78f95e7f4c9e82e558c36c32b
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: 2dstarter\Temp\UnityTempFile-b47b40152f7cde64a8e09ac245a2a85d
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-b47b40152f7cde64a8e09ac245a2a85d
+      projectPath: Temp\UnityTempFile-b47b40152f7cde64a8e09ac245a2a85d
+      originalPath: 2dstarter\Temp\UnityTempFile-590de26c509c2d1498c39ec36453574d
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: 2dstarter\Temp\UnityTempFile-d4d8f541d31a48a4893d2318f589ca2f
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-d4d8f541d31a48a4893d2318f589ca2f
+      projectPath: Temp\UnityTempFile-d4d8f541d31a48a4893d2318f589ca2f
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: 2dstarter\Temp\UnityTempFile-d741dd4e752a36847b4c8d97f2fb3e7d
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-d741dd4e752a36847b4c8d97f2fb3e7d
+      projectPath: Temp\UnityTempFile-d741dd4e752a36847b4c8d97f2fb3e7d
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: 2dstarter\Temp\UnityTempFile-ed0d0ac5e3b4b3d49b1804d24db90fb6
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-ed0d0ac5e3b4b3d49b1804d24db90fb6
+      projectPath: Temp\UnityTempFile-ed0d0ac5e3b4b3d49b1804d24db90fb6
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: 2dstarter\Temp\UnityTempFile-ede09cfcee7dd75438ccd28fa5419711
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-ede09cfcee7dd75438ccd28fa5419711
+      projectPath: Temp\UnityTempFile-ede09cfcee7dd75438ccd28fa5419711
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: 2dstarter\Temp\UnityTempFile-f89f913ff0d9e124c9ab57ed63962e9c
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-f89f913ff0d9e124c9ab57ed63962e9c
+      projectPath: Temp\UnityTempFile-f89f913ff0d9e124c9ab57ed63962e9c
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: 2dstarter\Temp\UnityTempFile-f93a8a997ad20134e8080b1f368a3919
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-f93a8a997ad20134e8080b1f368a3919
+      projectPath: Temp\UnityTempFile-f93a8a997ad20134e8080b1f368a3919
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+  - commitID: d70e458ff51bae5aabd9fdbb3733e7427c594745
+    mergeA: 
+    mergeB: 
+    authorName: liamrcourtney
+    authorEmail: liamcdaa@gmail.com
+    commitEmail: liamcdaa@gmail.com
+    commitName: liamrcourtney
+    summary: jumping update pt3
+    description: 
+    timeString: 2020-10-31T17:42:09.000+02:00
+    commitTimeString: 2020-10-31T17:42:09.000+02:00
+    changes:
+    - path: 2dstarter\Library\SourceAssetDB
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\SourceAssetDB
+      projectPath: Library\SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2dstarter\Library\StateCache\Hierarchy\4c969a-mainStage.json
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\StateCache\Hierarchy\4c969a-mainStage.json
+      projectPath: Library\StateCache\Hierarchy\4c969a-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2dstarter\ProjectSettings\TagManager.asset
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2dstarter\Temp\UnityTempFile-0d41d4c1ad197af40a16251290da5a08
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-0d41d4c1ad197af40a16251290da5a08
+      projectPath: Temp\UnityTempFile-0d41d4c1ad197af40a16251290da5a08
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: 2dstarter\Temp\UnityTempFile-17d9ac5df0963364993a759977230e57
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-17d9ac5df0963364993a759977230e57
+      projectPath: Temp\UnityTempFile-17d9ac5df0963364993a759977230e57
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: 2dstarter\Temp\UnityTempFile-19005fc4c7bc5434dbb5eeb3a9024492
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-19005fc4c7bc5434dbb5eeb3a9024492
+      projectPath: Temp\UnityTempFile-19005fc4c7bc5434dbb5eeb3a9024492
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: 2dstarter\Temp\UnityTempFile-1dae2cde75546b149a87830a4fdc90cb
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-1dae2cde75546b149a87830a4fdc90cb
+      projectPath: Temp\UnityTempFile-1dae2cde75546b149a87830a4fdc90cb
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: 2dstarter\Temp\UnityTempFile-1ed3aa091191c0240be5d7546d630879
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-1ed3aa091191c0240be5d7546d630879
+      projectPath: Temp\UnityTempFile-1ed3aa091191c0240be5d7546d630879
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: 2dstarter\Temp\UnityTempFile-2257083b42670004b9aea85e23d54286
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-2257083b42670004b9aea85e23d54286
+      projectPath: Temp\UnityTempFile-2257083b42670004b9aea85e23d54286
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: 2dstarter\Temp\UnityTempFile-2b71e5d0a8457344f9ab9241e99d88c5
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-2b71e5d0a8457344f9ab9241e99d88c5
+      projectPath: Temp\UnityTempFile-2b71e5d0a8457344f9ab9241e99d88c5
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: 2dstarter\Temp\UnityTempFile-2cafe846557071e4eacb7a0d6da85e2c
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-2cafe846557071e4eacb7a0d6da85e2c
+      projectPath: Temp\UnityTempFile-2cafe846557071e4eacb7a0d6da85e2c
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: 2dstarter\Temp\UnityTempFile-2ed4451546253ad4ba338d5649f7f9ee
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-2ed4451546253ad4ba338d5649f7f9ee
+      projectPath: Temp\UnityTempFile-2ed4451546253ad4ba338d5649f7f9ee
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: 2dstarter\Temp\UnityTempFile-4b86e3da6420b8c4d8382c1d423f4bbc
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-4b86e3da6420b8c4d8382c1d423f4bbc
+      projectPath: Temp\UnityTempFile-4b86e3da6420b8c4d8382c1d423f4bbc
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: 2dstarter\Temp\__Backupscenes\0.backup
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\__Backupscenes\0.backup
+      projectPath: Temp\__Backupscenes\0.backup
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 76b28df05784181067a50a454c6633f722059400
+    mergeA: 
+    mergeB: 
+    authorName: liamrcourtney
+    authorEmail: liamcdaa@gmail.com
+    commitEmail: liamcdaa@gmail.com
+    commitName: liamrcourtney
+    summary: jumping update pt2
+    description: 
+    timeString: 2020-10-31T17:41:44.000+02:00
+    commitTimeString: 2020-10-31T17:41:44.000+02:00
+    changes:
+    - path: 2dstarter\Library\Artifacts\5e\5eb8d9ecfe2d4443de0ddab063cb13c2
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\5e\5eb8d9ecfe2d4443de0ddab063cb13c2
+      projectPath: Library\Artifacts\5e\5eb8d9ecfe2d4443de0ddab063cb13c2
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: 2dstarter\Library\Artifacts\ad\ad3e0da68e6a624e52465d81b92c5a8d
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\ad\ad3e0da68e6a624e52465d81b92c5a8d
+      projectPath: Library\Artifacts\ad\ad3e0da68e6a624e52465d81b92c5a8d
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: 2dstarter\Library\Artifacts\ba\ba169348f0b4b48008a1745d84b06c50
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\ba\ba169348f0b4b48008a1745d84b06c50
+      projectPath: Library\Artifacts\ba\ba169348f0b4b48008a1745d84b06c50
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: 2dstarter\Library\Artifacts\e2\e28145919b3124a6cf51afba1ea6bf8c
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\e2\e28145919b3124a6cf51afba1ea6bf8c
+      projectPath: Library\Artifacts\e2\e28145919b3124a6cf51afba1ea6bf8c
+      originalPath: 2dstarter\Library\Artifacts\ef\ef1ad34b451feba9217b966f307c57cf
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: 2dstarter\Library\EditorInstance.json
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\EditorInstance.json
+      projectPath: Library\EditorInstance.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2dstarter\Library\InspectorExpandedItems.asset
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2dstarter\Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2dstarter\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2dstarter\Library\gfu\cache\branches.yaml
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2dstarter\Library\gfu\cache\gitlocks.yaml
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2dstarter\Library\gfu\cache\gitlog.yaml
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2dstarter\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2dstarter\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2dstarter\Library\gfu\cache\repoinfo.yaml
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 8c5ec78404d04078f20bc64f0dbf5c28ac02fc33
+    mergeA: 
+    mergeB: 
+    authorName: liamrcourtney
+    authorEmail: liamcdaa@gmail.com
+    commitEmail: liamcdaa@gmail.com
+    commitName: liamrcourtney
+    summary: jumping update pt1
+    description: 
+    timeString: 2020-10-31T17:41:10.000+02:00
+    commitTimeString: 2020-10-31T17:41:10.000+02:00
+    changes:
+    - path: 2dstarter\Assets\Scenes\1.unity
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\Scenes\1.unity
+      projectPath: Assets\Scenes\1.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2dstarter\Assets\scripts\PlayerMovement.cs
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\scripts\PlayerMovement.cs
+      projectPath: Assets\scripts\PlayerMovement.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2dstarter\Library\AnnotationManager
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\AnnotationManager
+      projectPath: Library\AnnotationManager
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2dstarter\Library\ArtifactDB
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\ArtifactDB
+      projectPath: Library\ArtifactDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: fef1883a94f92ab0f141dbcd3c0fa6cf38d31064
     mergeA: 
     mergeB: 
