@@ -6,6 +6,7 @@ public class CameraControl : MonoBehaviour
 {
     [SerializeField]
     private Transform DinoTransform;
+    PlayerMovement 
 
     // Start is called before the first frame update
     void Start()

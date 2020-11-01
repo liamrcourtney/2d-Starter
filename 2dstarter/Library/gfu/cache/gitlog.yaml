@@ -13,9 +13,129 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-10-31T17:42:38.841+02:00
+  lastUpdatedAtString: 2020-10-31T22:01:35.437+02:00
   initializedAtString: 2020-10-31T16:54:37.946+02:00
   log:
+  - commitID: 57132892cc90cb4c90a6d5aebb97d450e7726287
+    mergeA: 
+    mergeB: 
+    authorName: liamrcourtney
+    authorEmail: liamcdaa@gmail.com
+    commitEmail: liamcdaa@gmail.com
+    commitName: liamrcourtney
+    summary: Camera Control
+    description: 
+    timeString: 2020-10-31T17:49:13.000+02:00
+    commitTimeString: 2020-10-31T17:49:13.000+02:00
+    changes:
+    - path: 2dstarter\Assembly-CSharp.csproj
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2dstarter\Assets\Scenes\1.unity
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\Scenes\1.unity
+      projectPath: Assets\Scenes\1.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2dstarter\Assets\scripts\CameraControl.cs
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\scripts\CameraControl.cs
+      projectPath: Assets\scripts\CameraControl.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: 2dstarter\Assets\scripts\CameraControl.cs.meta
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\scripts\CameraControl.cs.meta
+      projectPath: Assets\scripts\CameraControl.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: 2dstarter\Library\Artifacts\ac\ac21968aa1a1cf356ba394b1b653066e
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\ac\ac21968aa1a1cf356ba394b1b653066e
+      projectPath: Library\Artifacts\ac\ac21968aa1a1cf356ba394b1b653066e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: 2dstarter\Library\Artifacts\df\dfe0a7044203597e3038d33587a2665e
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\df\dfe0a7044203597e3038d33587a2665e
+      projectPath: Library\Artifacts\df\dfe0a7044203597e3038d33587a2665e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: 2dstarter\Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2dstarter\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2dstarter\Library\SourceAssetDB
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\SourceAssetDB
+      projectPath: Library\SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2dstarter\Library\StateCache\Hierarchy\4c969a-mainStage.json
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\StateCache\Hierarchy\4c969a-mainStage.json
+      projectPath: Library\StateCache\Hierarchy\4c969a-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2dstarter\Library\gfu\cache\branches.yaml
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2dstarter\Library\gfu\cache\gitlocks.yaml
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2dstarter\Library\gfu\cache\gitlog.yaml
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2dstarter\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2dstarter\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2dstarter\Temp\UnityTempFile-2930334e951ab3b4990524943a84899b
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-2930334e951ab3b4990524943a84899b
+      projectPath: Temp\UnityTempFile-2930334e951ab3b4990524943a84899b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: 2dstarter\Temp\UnityTempFile-4b76055ed77fd154eb69647e6f23617b
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-4b76055ed77fd154eb69647e6f23617b
+      projectPath: Temp\UnityTempFile-4b76055ed77fd154eb69647e6f23617b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: 2dstarter\Temp\__Backupscenes\0.backup
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\__Backupscenes\0.backup
+      projectPath: Temp\__Backupscenes\0.backup
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 9bf1cf6cb86bee1a60e61dbca415fc6904e453f6
     mergeA: 
     mergeB: 

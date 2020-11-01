@@ -10,11 +10,11 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     private float speed;
     [SerializeField]
-    private float vSpeed;
+    public float vSpeed;
     [SerializeField]
-    private LayerMask Ground;
-    private Rigidbody2D rigidBody;
-    private float halfHeight;
+    public LayerMask Ground;
+    public Rigidbody2D rigidBody;
+    public float halfHeight;
 
     void Start()
     {
