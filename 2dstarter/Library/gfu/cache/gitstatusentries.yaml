@@ -13,84 +13,48 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-10-31T22:08:32.323+02:00
-  initializedAtString: 2020-10-31T15:56:31.388+02:00
+  lastUpdatedAtString: 2020-11-02T13:16:35.547+02:00
+  initializedAtString: 2020-11-01T09:52:37.547+02:00
   entries:
-  - path: 2dstarter\Assets\animations.meta
-    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\animations.meta
-    projectPath: Assets\animations.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: 2dstarter\Assets\animations\dino.controller
-    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\animations\dino.controller
-    projectPath: Assets\animations\dino.controller
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: 2dstarter\Assets\animations\dino.controller.meta
-    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\animations\dino.controller.meta
-    projectPath: Assets\animations\dino.controller.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: 2dstarter\Assets\animations\jumping.anim
-    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\animations\jumping.anim
-    projectPath: Assets\animations\jumping.anim
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: 2dstarter\Assets\animations\jumping.anim.meta
-    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\animations\jumping.anim.meta
-    projectPath: Assets\animations\jumping.anim.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: 2dstarter\Assets\animations\running.anim
-    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\animations\running.anim
-    projectPath: Assets\animations\running.anim
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: 2dstarter\Assets\animations\running.anim.meta
-    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\animations\running.anim.meta
-    projectPath: Assets\animations\running.anim.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: 2dstarter\Assets\Scenes\1.unity
-    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\Scenes\1.unity
-    projectPath: Assets\Scenes\1.unity
+  - path: 2dstarter\Assembly-CSharp.csproj
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: 2dstarter\Assets\scripts\CameraControl.cs
-    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\scripts\CameraControl.cs
-    projectPath: Assets\scripts\CameraControl.cs
+  - path: 2dstarter\Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assembly-CSharp-Editor-firstpass.csproj
+    projectPath: Assembly-CSharp-Editor-firstpass.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: 2dstarter\Library\Artifacts\04\042eff8a42a4e06dacad80cddf1c2d6e
-    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\04\042eff8a42a4e06dacad80cddf1c2d6e
-    projectPath: Library\Artifacts\04\042eff8a42a4e06dacad80cddf1c2d6e
+  - path: 2dstarter\Assets\animations\idleChar.anim
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\animations\idleChar.anim
+    projectPath: Assets\animations\idleChar.anim
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: 2dstarter\Library\Artifacts\0a\0ace69c4fe3462fdcf9409b4181da938
-    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\0a\0ace69c4fe3462fdcf9409b4181da938
-    projectPath: Library\Artifacts\0a\0ace69c4fe3462fdcf9409b4181da938
+  - path: 2dstarter\Assets\animations\idleChar.anim.meta
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\animations\idleChar.anim.meta
+    projectPath: Assets\animations\idleChar.anim.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: 2dstarter\Library\Artifacts\53\53979e565b84abd5dee6031af3f00ca1
-    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\53\53979e565b84abd5dee6031af3f00ca1
-    projectPath: Library\Artifacts\53\53979e565b84abd5dee6031af3f00ca1
+  - path: 2dstarter\Library\Artifacts\37\37361b9e09d9193eb5afa5cc5e76f22c
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\37\37361b9e09d9193eb5afa5cc5e76f22c
+    projectPath: Library\Artifacts\37\37361b9e09d9193eb5afa5cc5e76f22c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: 2dstarter\Library\Artifacts\bd\bde3038e0128d9bb156e09d1793bfa99
-    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\bd\bde3038e0128d9bb156e09d1793bfa99
-    projectPath: Library\Artifacts\bd\bde3038e0128d9bb156e09d1793bfa99
+  - path: 2dstarter\Library\Artifacts\92\92f24608b613929da66cfa8d566a8470
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\92\92f24608b613929da66cfa8d566a8470
+    projectPath: Library\Artifacts\92\92f24608b613929da66cfa8d566a8470
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Library\EditorInstance.json
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -130,15 +94,33 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: 2dstarter\Library\ScriptAssemblies\Assembly-CSharp.dll
-    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\ScriptAssemblies\Assembly-CSharp.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+  - path: 2dstarter\Library\SceneVisibilityState.asset
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\SceneVisibilityState.asset
+    projectPath: Library\SceneVisibilityState.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: 2dstarter\Library\ScriptAssemblies\Assembly-CSharp.pdb
-    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\ScriptAssemblies\Assembly-CSharp.pdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+  - path: 2dstarter\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: 2dstarter\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: 2dstarter\Library\shadercompiler-UnityShaderCompiler.exe1.log
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\shadercompiler-UnityShaderCompiler.exe1.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: 2dstarter\Library\shadercompiler-UnityShaderCompiler.exe2.log
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\shadercompiler-UnityShaderCompiler.exe2.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -148,21 +130,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: 2dstarter\Temp\__Backupscenes\0.backup
-    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\__Backupscenes\0.backup
-    projectPath: Temp\__Backupscenes\0.backup
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: 2dstarter\Temp\UnityLockfile
     fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: 2dstarter\Temp\UnityTempFile-3d104120e024f124295e8cc940050413
-    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-3d104120e024f124295e8cc940050413
-    projectPath: Temp\UnityTempFile-3d104120e024f124295e8cc940050413
+  - path: 2dstarter\Temp\UnityTempFile-06001e3ad298dfc41b048a69b4655724
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-06001e3ad298dfc41b048a69b4655724
+    projectPath: Temp\UnityTempFile-06001e3ad298dfc41b048a69b4655724
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
