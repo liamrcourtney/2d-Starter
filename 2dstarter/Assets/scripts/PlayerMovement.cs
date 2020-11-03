@@ -16,10 +16,13 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rigidBody;
     public float halfHeight;
 
+    public Animator animator;
+
     void Start()
     {
      //   Debug.Log("Speed: " + speed);
         rigidBody = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
         halfHeight = (GetComponent<SpriteRenderer>().bounds.size.y / 2) + 0.1f;
     }
 
@@ -37,6 +40,22 @@ public class PlayerMovement : MonoBehaviour
     {
         float movementX = Input.GetAxis("Horizontal");
         transform.position += new Vector3(movementX * speed * Time.deltaTime, 0, 0);
+        Vector3 scale = transform.localScale;
+        if (movementX != 0)
+        {
+            //animator.Play("idleChar");
+             animator.Play("running");
+            if ((movementX > 0 && scale.x < 0) || (movementX < 0 && scale.x > 0))
+            {
+                scale.x *= -1;
+                transform.localScale = scale;
+            }
+        }
+        else
+        {
+            //animator.Play("running");
+            animator.Play("idleChar");
+        }
     }
     
     void Jump()
@@ -50,6 +69,17 @@ public class PlayerMovement : MonoBehaviour
                 rigidBody.velocity = new Vector3(0, vSpeed);
 
             }
+            animator.Play("jumping");
+          
+            //if ((movementX > 0 && scale.x < 0) || (movementX < 0 && scale.x > 0))
+            //{
+            //    scale.x *= -1;
+            //    transform.localScale = scale;
+            //}
+        }
+        else
+        {
+            animator.Play("idleChar");
         }
     } 
 }

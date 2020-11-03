@@ -6,7 +6,7 @@ public class CameraControl : MonoBehaviour
 {
     [SerializeField]
     private Transform DinoTransform;
-    PlayerMovement 
+   // PlayerMovement 
 
     // Start is called before the first frame update
     void Start()
@@ -17,6 +17,6 @@ public class CameraControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(DinoTransform.position.x, transform.position.y, transform.position.z);
+        transform.position = new Vector3(DinoTransform.position.x, DinoTransform.position.y, transform.position.z);
     }
 }

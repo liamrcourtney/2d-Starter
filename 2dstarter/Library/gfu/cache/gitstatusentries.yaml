@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-11-02T13:16:35.547+02:00
-  initializedAtString: 2020-11-01T09:52:37.547+02:00
+  lastUpdatedAtString: 2020-11-03T14:10:16.039+02:00
+  initializedAtString: 2020-11-02T13:50:48.736+02:00
   entries:
   - path: 2dstarter\Assembly-CSharp.csproj
     fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assembly-CSharp.csproj
@@ -28,15 +28,39 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: 2dstarter\Assets\animations\idleChar.anim
-    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\animations\idleChar.anim
-    projectPath: Assets\animations\idleChar.anim
+  - path: 2dstarter\Assets\Scenes\1.unity
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\Scenes\1.unity
+    projectPath: Assets\Scenes\1.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: 2dstarter\Assets\scripts\CameraControl.cs
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\scripts\CameraControl.cs
+    projectPath: Assets\scripts\CameraControl.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: 2dstarter\Assets\scripts\PlayerMovement.cs
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\scripts\PlayerMovement.cs
+    projectPath: Assets\scripts\PlayerMovement.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: 2dstarter\Library\ArtifactDB
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\ArtifactDB
+    projectPath: Library\ArtifactDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: 2dstarter\Library\Artifacts\10\10d139dab695052037deadf2ba03de0f
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\10\10d139dab695052037deadf2ba03de0f
+    projectPath: Library\Artifacts\10\10d139dab695052037deadf2ba03de0f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: 2dstarter\Assets\animations\idleChar.anim.meta
-    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\animations\idleChar.anim.meta
-    projectPath: Assets\animations\idleChar.anim.meta
+  - path: 2dstarter\Library\Artifacts\27\27798299c610fab9f3dde5dff873fcda
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\27\27798299c610fab9f3dde5dff873fcda
+    projectPath: Library\Artifacts\27\27798299c610fab9f3dde5dff873fcda
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -44,20 +68,86 @@ MonoBehaviour:
     fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\37\37361b9e09d9193eb5afa5cc5e76f22c
     projectPath: Library\Artifacts\37\37361b9e09d9193eb5afa5cc5e76f22c
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: 2dstarter\Library\Artifacts\53\53979e565b84abd5dee6031af3f00ca1
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\53\53979e565b84abd5dee6031af3f00ca1
+    projectPath: Library\Artifacts\53\53979e565b84abd5dee6031af3f00ca1
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: 2dstarter\Library\Artifacts\83\8335657fedfa3203a19a8e3766745adf
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\83\8335657fedfa3203a19a8e3766745adf
+    projectPath: Library\Artifacts\83\8335657fedfa3203a19a8e3766745adf
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: 2dstarter\Library\Artifacts\92\92f24608b613929da66cfa8d566a8470
     fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\92\92f24608b613929da66cfa8d566a8470
     projectPath: Library\Artifacts\92\92f24608b613929da66cfa8d566a8470
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: 2dstarter\Library\Artifacts\9c\9c9a674bbe54edddd8449bfa9bb99d2b
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\9c\9c9a674bbe54edddd8449bfa9bb99d2b
+    projectPath: Library\Artifacts\9c\9c9a674bbe54edddd8449bfa9bb99d2b
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: 2dstarter\Library\Artifacts\bb\bb34f607042a696a8c95ae54abff21fc
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\bb\bb34f607042a696a8c95ae54abff21fc
+    projectPath: Library\Artifacts\bb\bb34f607042a696a8c95ae54abff21fc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Library\Artifacts\bc\bcd4215a5ab56dacc6988c764925f14b
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\bc\bcd4215a5ab56dacc6988c764925f14b
+    projectPath: Library\Artifacts\bc\bcd4215a5ab56dacc6988c764925f14b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Library\Artifacts\cf\cfb2e642ed24f204bd5477916c6eed21
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\cf\cfb2e642ed24f204bd5477916c6eed21
+    projectPath: Library\Artifacts\cf\cfb2e642ed24f204bd5477916c6eed21
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Library\Artifacts\d8\d8ff2eee314936055faff41e6a5d149d
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\d8\d8ff2eee314936055faff41e6a5d149d
+    projectPath: Library\Artifacts\d8\d8ff2eee314936055faff41e6a5d149d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Library\Artifacts\e2\e28145919b3124a6cf51afba1ea6bf8c
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\e2\e28145919b3124a6cf51afba1ea6bf8c
+    projectPath: Library\Artifacts\e2\e28145919b3124a6cf51afba1ea6bf8c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: 2dstarter\Library\Artifacts\e9\e95857927474d870e594ea81e28ce8a4
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\e9\e95857927474d870e594ea81e28ce8a4
+    projectPath: Library\Artifacts\e9\e95857927474d870e594ea81e28ce8a4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Library\CurrentLayout-default.dwlt
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\CurrentLayout-default.dwlt
+    projectPath: Library\CurrentLayout-default.dwlt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: 2dstarter\Library\EditorInstance.json
     fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: 2dstarter\Library\expandedItems
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\expandedItems
+    projectPath: Library\expandedItems
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: 2dstarter\Library\gfu\cache\branches.yaml
     fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
@@ -94,9 +184,27 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: 2dstarter\Library\InspectorExpandedItems.asset
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: 2dstarter\Library\SceneVisibilityState.asset
     fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\SceneVisibilityState.asset
     projectPath: Library\SceneVisibilityState.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: 2dstarter\Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: 2dstarter\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -104,8 +212,8 @@ MonoBehaviour:
     fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\ScriptAssemblies\BuiltinAssemblies.stamp
     projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: 2dstarter\Library\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
@@ -130,6 +238,24 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: 2dstarter\Library\StateCache\Hierarchy\4c969a-mainStage.json
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\StateCache\Hierarchy\4c969a-mainStage.json
+    projectPath: Library\StateCache\Hierarchy\4c969a-mainStage.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: 2dstarter\Library\StateCache\SceneView\cc2798-mainStage.json
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\StateCache\SceneView\cc2798-mainStage.json
+    projectPath: Library\StateCache\SceneView\cc2798-mainStage.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: 2dstarter\Temp\__Backupscenes\0.backup
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\__Backupscenes\0.backup
+    projectPath: Temp\__Backupscenes\0.backup
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: 2dstarter\Temp\UnityLockfile
     fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
@@ -139,6 +265,54 @@ MonoBehaviour:
   - path: 2dstarter\Temp\UnityTempFile-06001e3ad298dfc41b048a69b4655724
     fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-06001e3ad298dfc41b048a69b4655724
     projectPath: Temp\UnityTempFile-06001e3ad298dfc41b048a69b4655724
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: 2dstarter\Temp\UnityTempFile-08873c065fb0cad439c3f618e06b8dc6
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-08873c065fb0cad439c3f618e06b8dc6
+    projectPath: Temp\UnityTempFile-08873c065fb0cad439c3f618e06b8dc6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Temp\UnityTempFile-0c1686742d0bb7d428555b123a20c17d
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-0c1686742d0bb7d428555b123a20c17d
+    projectPath: Temp\UnityTempFile-0c1686742d0bb7d428555b123a20c17d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Temp\UnityTempFile-49a20f6d0197ca548a2f144d2d7efe10
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-49a20f6d0197ca548a2f144d2d7efe10
+    projectPath: Temp\UnityTempFile-49a20f6d0197ca548a2f144d2d7efe10
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Temp\UnityTempFile-9ac464d1f9d8fde4091b3172ce410a5b
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-9ac464d1f9d8fde4091b3172ce410a5b
+    projectPath: Temp\UnityTempFile-9ac464d1f9d8fde4091b3172ce410a5b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Temp\UnityTempFile-e4db0fb08ffe13045b59059b94ea8353
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-e4db0fb08ffe13045b59059b94ea8353
+    projectPath: Temp\UnityTempFile-e4db0fb08ffe13045b59059b94ea8353
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Temp\UnityTempFile-e7b7027d66cebdc418a1bd8a7fd1618f
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-e7b7027d66cebdc418a1bd8a7fd1618f
+    projectPath: Temp\UnityTempFile-e7b7027d66cebdc418a1bd8a7fd1618f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Temp\UnityTempFile-f9c24f2a8165ccf4fbbb064c69ce3b9f
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-f9c24f2a8165ccf4fbbb064c69ce3b9f
+    projectPath: Temp\UnityTempFile-f9c24f2a8165ccf4fbbb064c69ce3b9f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 2dstarter\Temp\UnityTempFile-ffc7e52d41196ac418aeb830efd15adc
+    fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-ffc7e52d41196ac418aeb830efd15adc
+    projectPath: Temp\UnityTempFile-ffc7e52d41196ac418aeb830efd15adc
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
