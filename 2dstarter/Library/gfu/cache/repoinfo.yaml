@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2020-11-05T12:50:51.108+02:00
-  initializedAtString: 2020-11-04T13:36:43.892+02:00
+  lastUpdatedAtString: 2020-11-05T15:55:31.522+02:00
+  initializedAtString: 2020-11-05T14:49:43.866+02:00
   currentGitRemote:
     name: origin
     url: https://github.com/liamrcourtney/2d-Starter.git
