@@ -15,8 +15,8 @@ public class PlayerMovement : MonoBehaviour
     private LayerMask Ground;
     private Rigidbody2D rigidBody;
     private float halfHeight;
-
     private Animator animator;
+    private GameManager manager;
 
     void Start()
     {
@@ -24,6 +24,7 @@ public class PlayerMovement : MonoBehaviour
         rigidBody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         halfHeight = (GetComponent<SpriteRenderer>().bounds.size.y / 2) + 0.1f;
+        manager = GameObject.FindObjectOfType<GameManager>();
     }
 
 
@@ -82,4 +83,21 @@ public class PlayerMovement : MonoBehaviour
             animator.Play("idleChar");
         }
     } 
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        //UnityEngine.Debug.Log("Collided with: " + collision.gameObject.tag);
+        if (collision.gameObject.tag=="Gold")
+        {
+            Destroy(collision.gameObject);
+            manager.Score++;
+            
+        }
+
+        if (collision.gameObject.tag=="enemy")
+        {
+            Destroy(collision.gamObject);
+            manager.Health--;
+        }
+    }
 }
