@@ -96,7 +96,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (collision.gameObject.tag=="enemy")
         {
-            Destroy(collision.gamObject);
+            Destroy(collision.gameObject);
             manager.Health--;
         }
     }
