@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1377112331327759512}
   - component: {fileID: 1987748520073702433}
   - component: {fileID: 6697159550876650831}
+  - component: {fileID: -7413923403066199551}
   m_Layer: 0
   m_Name: slimey1
   m_TagString: enemy
@@ -128,3 +129,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &-7413923403066199551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2924030580132468949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ae6c67a7a3e3854cbef9c023c78e857, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

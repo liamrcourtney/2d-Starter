@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public int Score { get; set; }
-    public int Health = 3;
+    public int Health { get; set; }
 
 
     // Start is called before the first frame update

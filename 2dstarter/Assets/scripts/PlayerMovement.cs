@@ -1,9 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.Security.Cryptography;
-using System.Threading;
 using UnityEngine;
+using Debug = UnityEngine.Debug;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -16,15 +14,13 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rigidBody;
     private float halfHeight;
     private Animator animator;
-    private GameManager manager;
-
+    private AudioClip iron;
     void Start()
     {
      //   Debug.Log("Speed: " + speed);
         rigidBody = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
         halfHeight = (GetComponent<SpriteRenderer>().bounds.size.y / 2) + 0.1f;
-        manager = GameObject.FindObjectOfType<GameManager>();
+        animator = GetComponent<Animator>();
     }
 
 
@@ -44,19 +40,33 @@ public class PlayerMovement : MonoBehaviour
         Vector3 scale = transform.localScale;
         if (movementX != 0)
         {
-            //animator.Play("idleChar");
-             animator.Play("running");
+           
             if ((movementX > 0 && scale.x < 0) || (movementX < 0 && scale.x > 0))
             {
                 scale.x *= -1;
                 transform.localScale = scale;
             }
         }
+        
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            animator.Play("running");
+                       
+        }
         else
         {
-            //animator.Play("running");
             animator.Play("idleChar");
         }
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            animator.Play("running");
+
+        }
+        else
+        {
+            animator.Play("idleChar");
+        }
+
     }
     
     void Jump()
@@ -65,39 +75,20 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.W))
         {
             RaycastHit2D hit2D = Physics2D.Raycast(transform.position, Vector2.down, 3f, Ground);
+                animator.Play("jumping");
             if (hit2D && hit2D.distance < halfHeight)
             {
                 rigidBody.velocity = new Vector3(0, vSpeed);
 
             }
-            animator.Play("jumping");
-          
-            //if ((movementX > 0 && scale.x < 0) || (movementX < 0 && scale.x > 0))
-            //{
-            //    scale.x *= -1;
-            //    transform.localScale = scale;
-            //}
+
+           
         }
-        else
-        {
-            animator.Play("idleChar");
-        }
+        //else
+        //{
+        //    animator.Play("idleChar");
+        //}
     } 
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        UnityEngine.Debug.Log("Collided with: " + collision.gameObject.tag);
-        if (collision.gameObject.tag == "Iron Coin")
-        {
-            Destroy(collision.gameObject);
-            manager.Score++;
-
-        }
-
-        if (collision.gameObject.tag == "enemy")
-        {
-            Destroy(collision.gameObject);
-            manager.Health--;
-        }
-    }
+  
 }

@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 7343985586288296466}
   - component: {fileID: 2729950349439853684}
   - component: {fileID: -1911474164144644202}
-  - component: {fileID: -4467957444551469118}
+  - component: {fileID: 8617183068959612937}
+  - component: {fileID: -8762678116882338422}
   m_Layer: 0
   m_Name: IronCoin (1) 1
   m_TagString: Iron Coin
@@ -109,7 +110,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.16}
   m_EdgeRadius: 0
---- !u!82 &-4467957444551469118
+--- !u!82 &8617183068959612937
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -127,7 +128,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 155
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -205,3 +206,16 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-8762678116882338422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3332707713413313653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2929708f3e0d3f144a047d88a30446c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 8617183068959612937}
