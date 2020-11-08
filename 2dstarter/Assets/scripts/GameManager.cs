@@ -5,13 +5,13 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public int Score { get; set; }
-    public int Health { get; set; }
+    public int Health = 3;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        Health = 100;
+        
     }
 
     // Update is called once per frame

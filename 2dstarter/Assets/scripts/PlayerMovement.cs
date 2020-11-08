@@ -86,15 +86,15 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //UnityEngine.Debug.Log("Collided with: " + collision.gameObject.tag);
-        if (collision.gameObject.tag=="Gold")
+        UnityEngine.Debug.Log("Collided with: " + collision.gameObject.tag);
+        if (collision.gameObject.tag == "Iron Coin")
         {
             Destroy(collision.gameObject);
             manager.Score++;
-            
+
         }
 
-        if (collision.gameObject.tag=="enemy")
+        if (collision.gameObject.tag == "enemy")
         {
             Destroy(collision.gameObject);
             manager.Health--;
