@@ -71,6 +71,7 @@
     <Compile Include="Assets\scripts\ScoreManager.cs" />
     <Compile Include="Assets\scripts\Slimey.cs" />
     <Compile Include="Assets\scripts\UIManager.cs" />
+    <Compile Include="Assets\scripts\death.cs" />
     <Compile Include="Assets\scripts\ironCoins.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
