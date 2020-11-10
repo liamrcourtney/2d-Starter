@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Debug = UnityEngine.Debug;
 
 public class PlayerMovement : MonoBehaviour
@@ -15,12 +16,14 @@ public class PlayerMovement : MonoBehaviour
     private float halfHeight;
     private Animator animator;
     private AudioClip iron;
+    private GameManager manager;
     void Start()
     {
      //   Debug.Log("Speed: " + speed);
         rigidBody = GetComponent<Rigidbody2D>();
         halfHeight = (GetComponent<SpriteRenderer>().bounds.size.y / 2) + 0.1f;
         animator = GetComponent<Animator>();
+        manager = GameObject.FindObjectOfType<GameManager>();
     }
 
 
@@ -30,7 +33,10 @@ public class PlayerMovement : MonoBehaviour
         MoveChar();
         Jump();
 
-       
+        if (manager.Health == 0)
+        {
+            SceneManager.LoadScene(1);
+        }
     }
 
     void MoveChar()
@@ -88,7 +94,19 @@ public class PlayerMovement : MonoBehaviour
         //{
         //    animator.Play("idleChar");
         //}
-    } 
+    }
 
-  
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("Collided with: " + collision.gameObject.tag);
+        if (collision.gameObject.tag == "DeathZone")
+        {
+            SceneManager.LoadScene(1);
+        }
+
+        if (collision.gameObject.tag == "gate")
+        {
+            SceneManager.LoadScene(2);
+        }
+    }
 }
