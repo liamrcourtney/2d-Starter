@@ -8,6 +8,30 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PixelRect:
+    serializedVersion: 2
+    x: 1536
+    y: 0
+    width: 1366
+    height: 728
+  m_ShowMode: 0
+  m_Title: 
+  m_RootView: {fileID: 4}
+  m_MinSize: {x: 200, y: 221}
+  m_MaxSize: {x: 4000, y: 4021}
+  m_Maximized: 1
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -20,11 +44,61 @@ MonoBehaviour:
     height: 769.2
   m_ShowMode: 4
   m_Title: 
-  m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 300}
+  m_RootView: {fileID: 5}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
---- !u!114 &2
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: GameView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1366
+    height: 728
+  m_MinSize: {x: 200, y: 221}
+  m_MaxSize: {x: 4000, y: 4021}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 16}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 3}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1366
+    height: 728
+  m_MinSize: {x: 200, y: 221}
+  m_MaxSize: {x: 4000, y: 4021}
+  vertical: 0
+  controlID: 745
+--- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -37,18 +111,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 3}
-  - {fileID: 5}
-  - {fileID: 4}
+  - {fileID: 6}
+  - {fileID: 8}
+  - {fileID: 7}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
     width: 1524
     height: 770
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
---- !u!114 &3
+--- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -70,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &4
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -91,7 +165,7 @@ MonoBehaviour:
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &5
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -104,20 +178,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 6}
-  - {fileID: 7}
+  - {fileID: 9}
   - {fileID: 10}
+  - {fileID: 13}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
     width: 1524
     height: 720
-  m_MinSize: {x: 710, y: 492}
-  m_MaxSize: {x: 18005, y: 14042}
+  m_MinSize: {x: 677, y: 342}
+  m_MaxSize: {x: 12002, y: 8042}
   vertical: 0
-  controlID: 3125
---- !u!114 &6
+  controlID: 61
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -127,7 +201,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_Name: SceneHierarchyWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -138,90 +212,10 @@ MonoBehaviour:
     height: 720
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 16}
   - {fileID: 17}
-  m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &7
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 8}
-  - {fileID: 9}
-  m_Position:
-    serializedVersion: 2
-    x: 250
-    y: 0
-    width: 825
-    height: 720
-  m_MinSize: {x: 232, y: 492}
-  m_MaxSize: {x: 10002, y: 14042}
-  vertical: 1
-  controlID: 3126
---- !u!114 &8
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 825
-    height: 430
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 18}
-  m_Panes:
   - {fileID: 18}
-  - {fileID: 19}
-  - {fileID: 14}
-  m_Selected: 0
-  m_LastSelected: 2
---- !u!114 &9
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 430
-    width: 825
-    height: 290
-  m_MinSize: {x: 232, y: 271}
-  m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 20}
-  m_Panes:
-  - {fileID: 20}
-  - {fileID: 21}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &10
@@ -241,42 +235,15 @@ MonoBehaviour:
   - {fileID: 12}
   m_Position:
     serializedVersion: 2
-    x: 1075
+    x: 250
     y: 0
-    width: 449
+    width: 825
     height: 720
-  m_MinSize: {x: 277, y: 292}
+  m_MinSize: {x: 202, y: 342}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 3087
+  controlID: 62
 --- !u!114 &11
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 449
-    height: 252
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 15}
-  m_Panes:
-  - {fileID: 22}
-  - {fileID: 15}
-  m_Selected: 1
-  m_LastSelected: 0
---- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -286,26 +253,82 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 252
-    width: 449
-    height: 468
-  m_MinSize: {x: 277, y: 71}
+    y: 0
+    width: 825
+    height: 430
+  m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 23}
+  m_ActualView: {fileID: 19}
   m_Panes:
-  - {fileID: 23}
+  - {fileID: 19}
+  - {fileID: 20}
+  - {fileID: 15}
+  m_Selected: 0
+  m_LastSelected: 2
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: AnimationWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 430
+    width: 825
+    height: 290
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 22}
+  m_Panes:
+  - {fileID: 21}
+  - {fileID: 22}
+  - {fileID: 14}
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: InspectorWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1075
+    y: 0
+    width: 449
+    height: 720
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 24}
+  m_Panes:
   - {fileID: 24}
   - {fileID: 25}
-  - {fileID: 13}
+  - {fileID: 26}
+  - {fileID: 23}
   m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &13
+  m_LastSelected: 3
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -325,10 +348,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1083.2001
-    y: 328
-    width: 451
-    height: 457
+    x: 256.80002
+    y: 508.4
+    width: 823
+    height: 269
   m_ViewDataDictionary: {fileID: 0}
   progressMessageClearTime: -1
   notificationClearTime: -1
@@ -523,22 +546,48 @@ MonoBehaviour:
       folders:
         keys:
         - 2dstarter
+        - 2dstarter\.vs
+        - 2dstarter\.vs\2dstarter
+        - 2dstarter\.vs\2dstarter\v16
         - 2dstarter\Assets
+        - 2dstarter\Assets\prefabs
         - 2dstarter\Assets\Scenes
         - 2dstarter\Assets\scripts
         - 2dstarter\Library
+        - 2dstarter\Library\Artifacts
+        - 2dstarter\Library\Artifacts\16
+        - 2dstarter\Library\Artifacts\1c
+        - 2dstarter\Library\Artifacts\20
+        - 2dstarter\Library\Artifacts\2c
+        - 2dstarter\Library\Artifacts\2d
+        - 2dstarter\Library\Artifacts\5d
+        - 2dstarter\Library\Artifacts\60
+        - 2dstarter\Library\Artifacts\6d
+        - 2dstarter\Library\Artifacts\6e
+        - 2dstarter\Library\Artifacts\74
+        - 2dstarter\Library\Artifacts\7e
+        - 2dstarter\Library\Artifacts\90
+        - 2dstarter\Library\Artifacts\92
+        - 2dstarter\Library\Artifacts\a9
+        - 2dstarter\Library\Artifacts\b8
+        - 2dstarter\Library\Artifacts\ba
+        - 2dstarter\Library\Artifacts\c3
+        - 2dstarter\Library\Artifacts\ca
+        - 2dstarter\Library\Artifacts\e0
+        - 2dstarter\Library\Artifacts\ea
+        - 2dstarter\Library\Artifacts\ed
+        - 2dstarter\Library\Artifacts\f4
         - 2dstarter\Library\gfu
         - 2dstarter\Library\gfu\cache
-        - 2dstarter\Library\GridBrush
-        - 2dstarter\Library\metadata
-        - 2dstarter\Library\metadata\34
-        - 2dstarter\Library\metadata\3a
-        - 2dstarter\Library\metadata\77
         - 2dstarter\Library\ScriptAssemblies
         - 2dstarter\Library\StateCache
         - 2dstarter\Library\StateCache\Hierarchy
         - 2dstarter\Library\StateCache\SceneView
+        - 2dstarter\obj
+        - 2dstarter\obj\Debug
+        - 2dstarter\ProjectSettings
         - 2dstarter\Temp
+        - 2dstarter\Temp\__Backupscenes
         values:
         - path: 2dstarter
           label: 2dstarter
@@ -558,9 +607,81 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
+        - path: 2dstarter\.vs
+          label: .vs
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2dstarter\.vs\2dstarter
+          label: 2dstarter
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2dstarter\.vs\2dstarter\v16
+          label: v16
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
         - path: 2dstarter\Assets
           label: Assets
           level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2dstarter\Assets\prefabs
+          label: prefabs
+          level: 2
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -630,6 +751,420 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
+        - path: 2dstarter\Library\Artifacts
+          label: Artifacts
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2dstarter\Library\Artifacts\16
+          label: 16
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2dstarter\Library\Artifacts\1c
+          label: 1c
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2dstarter\Library\Artifacts\20
+          label: 20
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2dstarter\Library\Artifacts\2c
+          label: 2c
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2dstarter\Library\Artifacts\2d
+          label: 2d
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2dstarter\Library\Artifacts\5d
+          label: 5d
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2dstarter\Library\Artifacts\60
+          label: 60
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2dstarter\Library\Artifacts\6d
+          label: 6d
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2dstarter\Library\Artifacts\6e
+          label: 6e
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2dstarter\Library\Artifacts\74
+          label: 74
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2dstarter\Library\Artifacts\7e
+          label: 7e
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2dstarter\Library\Artifacts\90
+          label: 90
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2dstarter\Library\Artifacts\92
+          label: 92
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2dstarter\Library\Artifacts\a9
+          label: a9
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2dstarter\Library\Artifacts\b8
+          label: b8
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2dstarter\Library\Artifacts\ba
+          label: ba
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2dstarter\Library\Artifacts\c3
+          label: c3
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2dstarter\Library\Artifacts\ca
+          label: ca
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2dstarter\Library\Artifacts\e0
+          label: e0
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2dstarter\Library\Artifacts\ea
+          label: ea
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2dstarter\Library\Artifacts\ed
+          label: ed
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2dstarter\Library\Artifacts\f4
+          label: f4
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
         - path: 2dstarter\Library\gfu
           label: gfu
           level: 2
@@ -650,96 +1185,6 @@ MonoBehaviour:
             workTreeStatus: 0
         - path: 2dstarter\Library\gfu\cache
           label: cache
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: 2dstarter\Library\GridBrush
-          label: GridBrush
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: 2dstarter\Library\metadata
-          label: metadata
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: 2dstarter\Library\metadata\34
-          label: 34
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: 2dstarter\Library\metadata\3a
-          label: 3a
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: 2dstarter\Library\metadata\77
-          label: 77
           level: 3
           isFolder: 1
           isContainer: 0
@@ -828,9 +1273,81 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
+        - path: 2dstarter\obj
+          label: obj
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2dstarter\obj\Debug
+          label: Debug
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2dstarter\ProjectSettings
+          label: ProjectSettings
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
         - path: 2dstarter\Temp
           label: Temp
           level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2dstarter\Temp\__Backupscenes
+          label: __Backupscenes
+          level: 2
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -892,6 +1409,78 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: 2dstarter\.vs
+        label: .vs
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2dstarter\.vs\2dstarter
+        label: 2dstarter
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2dstarter\.vs\2dstarter\v16
+        label: v16
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2dstarter\.vs\2dstarter\v16\.suo
+        label: .suo
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\.vs\2dstarter\v16\.suo
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\.vs\2dstarter\v16\.suo
+          projectPath: .vs\2dstarter\v16\.suo
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
       - path: 2dstarter\Assembly-CSharp.csproj
         label: Assembly-CSharp.csproj
         level: 1
@@ -928,6 +1517,60 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: 2dstarter\Assets\prefabs
+        label: prefabs
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2dstarter\Assets\prefabs\slimey1.prefab
+        label: slimey1.prefab
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Assets\prefabs\slimey1.prefab
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\prefabs\slimey1.prefab
+          projectPath: Assets\prefabs\slimey1.prefab
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: 2dstarter\Assets\prefabs\water.prefab
+        label: water.prefab
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Assets\prefabs\water.prefab
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\prefabs\water.prefab
+          projectPath: Assets\prefabs\water.prefab
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
       - path: 2dstarter\Assets\Scenes
         label: Scenes
         level: 2
@@ -964,6 +1607,60 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
+      - path: 2dstarter\Assets\Scenes\GameOver.unity
+        label: GameOver.unity
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Assets\Scenes\GameOver.unity
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\Scenes\GameOver.unity
+          projectPath: Assets\Scenes\GameOver.unity
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: 2dstarter\Assets\Scenes\Intro.unity
+        label: Intro.unity
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Assets\Scenes\Intro.unity
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\Scenes\Intro.unity
+          projectPath: Assets\Scenes\Intro.unity
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2dstarter\Assets\Scenes\Intro.unity.meta
+        label: Intro.unity.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Assets\Scenes\Intro.unity.meta
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\Scenes\Intro.unity.meta
+          projectPath: Assets\Scenes\Intro.unity.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
       - path: 2dstarter\Assets\scripts
         label: scripts
         level: 2
@@ -982,8 +1679,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: 2dstarter\Assets\scripts\gameManager.cs
-        label: gameManager.cs
+      - path: 2dstarter\Assets\scripts\EnemyMovement.cs
+        label: EnemyMovement.cs
         level: 3
         isFolder: 0
         isContainer: 1
@@ -994,14 +1691,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: 2dstarter\Assets\scripts\gameManager.cs
-          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\scripts\gameManager.cs
-          projectPath: Assets\scripts\gameManager.cs
+          path: 2dstarter\Assets\scripts\EnemyMovement.cs
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\scripts\EnemyMovement.cs
+          projectPath: Assets\scripts\EnemyMovement.cs
           originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: 2dstarter\Assets\scripts\gameManager.cs.meta
-        label: gameManager.cs.meta
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2dstarter\Assets\scripts\EnemyMovement.cs.meta
+        label: EnemyMovement.cs.meta
         level: 4
         isFolder: 0
         isContainer: 0
@@ -1012,17 +1709,35 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: 2dstarter\Assets\scripts\gameManager.cs.meta
-          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\scripts\gameManager.cs.meta
-          projectPath: Assets\scripts\gameManager.cs.meta
+          path: 2dstarter\Assets\scripts\EnemyMovement.cs.meta
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\scripts\EnemyMovement.cs.meta
+          projectPath: Assets\scripts\EnemyMovement.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2dstarter\Assets\scripts\GameManager.cs
+        label: GameManager.cs
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Assets\scripts\GameManager.cs
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\scripts\GameManager.cs
+          projectPath: Assets\scripts\GameManager.cs
           originalPath: 
           indexStatus: 0
-          workTreeStatus: 5
+          workTreeStatus: 3
       - path: 2dstarter\Assets\scripts\PlayerMovement.cs
         label: PlayerMovement.cs
         level: 3
         isFolder: 0
-        isContainer: 1
+        isContainer: 0
         isCollapsed: 0
         isHidden: 0
         isActive: 0
@@ -1033,42 +1748,6 @@ MonoBehaviour:
           path: 2dstarter\Assets\scripts\PlayerMovement.cs
           fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\scripts\PlayerMovement.cs
           projectPath: Assets\scripts\PlayerMovement.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: 2dstarter\Assets\scripts\PlayerMovement.cs.meta
-        label: PlayerMovement.cs.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 2dstarter\Assets\scripts\PlayerMovement.cs.meta
-          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\scripts\PlayerMovement.cs.meta
-          projectPath: Assets\scripts\PlayerMovement.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: 2dstarter\Assets\scripts\walkingdino.cs
-        label: walkingdino.cs
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 2dstarter\Assets\scripts\walkingdino.cs
-          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\scripts\walkingdino.cs
-          projectPath: Assets\scripts\walkingdino.cs
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
@@ -1090,8 +1769,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: 2dstarter\Library\assetDatabase3
-        label: assetDatabase3
+      - path: 2dstarter\Library\ArtifactDB
+        label: ArtifactDB
         level: 2
         isFolder: 0
         isContainer: 0
@@ -1102,14 +1781,896 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: 2dstarter\Library\assetDatabase3
-          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\assetDatabase3
-          projectPath: Library\assetDatabase3
+          path: 2dstarter\Library\ArtifactDB
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\ArtifactDB
+          projectPath: Library\ArtifactDB
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
-      - path: 2dstarter\Library\CurrentLayout.dwlt
-        label: CurrentLayout.dwlt
+      - path: 2dstarter\Library\Artifacts
+        label: Artifacts
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2dstarter\Library\Artifacts\16
+        label: 16
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2dstarter\Library\Artifacts\16\16b6e44dd839534cfb8783fc9c425d79
+        label: 16b6e44dd839534cfb8783fc9c425d79
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Library\Artifacts\16\16b6e44dd839534cfb8783fc9c425d79
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\16\16b6e44dd839534cfb8783fc9c425d79
+          projectPath: Library\Artifacts\16\16b6e44dd839534cfb8783fc9c425d79
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2dstarter\Library\Artifacts\1c
+        label: 1c
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2dstarter\Library\Artifacts\1c\1cad116b7a56f10449626ea27b296d5c
+        label: 1cad116b7a56f10449626ea27b296d5c
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Library\Artifacts\1c\1cad116b7a56f10449626ea27b296d5c
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\1c\1cad116b7a56f10449626ea27b296d5c
+          projectPath: Library\Artifacts\1c\1cad116b7a56f10449626ea27b296d5c
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2dstarter\Library\Artifacts\20
+        label: 20
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2dstarter\Library\Artifacts\20\2082c42f5a314641f2ac3f375ede13b4
+        label: 2082c42f5a314641f2ac3f375ede13b4
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Library\Artifacts\20\2082c42f5a314641f2ac3f375ede13b4
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\20\2082c42f5a314641f2ac3f375ede13b4
+          projectPath: Library\Artifacts\20\2082c42f5a314641f2ac3f375ede13b4
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2dstarter\Library\Artifacts\2c
+        label: 2c
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2dstarter\Library\Artifacts\2c\2cd8ec0ba2c986fa5c8640aa60d003f7
+        label: 2cd8ec0ba2c986fa5c8640aa60d003f7
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Library\Artifacts\2c\2cd8ec0ba2c986fa5c8640aa60d003f7
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\2c\2cd8ec0ba2c986fa5c8640aa60d003f7
+          projectPath: Library\Artifacts\2c\2cd8ec0ba2c986fa5c8640aa60d003f7
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2dstarter\Library\Artifacts\2d
+        label: 2d
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2dstarter\Library\Artifacts\2d\2daae70be4e73145da4ddd70494c1385
+        label: 2daae70be4e73145da4ddd70494c1385
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Library\Artifacts\2d\2daae70be4e73145da4ddd70494c1385
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\2d\2daae70be4e73145da4ddd70494c1385
+          projectPath: Library\Artifacts\2d\2daae70be4e73145da4ddd70494c1385
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2dstarter\Library\Artifacts\5d
+        label: 5d
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2dstarter\Library\Artifacts\5d\5d3ce5658f1d03c1cc2719dc5a2ff86e
+        label: 5d3ce5658f1d03c1cc2719dc5a2ff86e
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Library\Artifacts\5d\5d3ce5658f1d03c1cc2719dc5a2ff86e
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\5d\5d3ce5658f1d03c1cc2719dc5a2ff86e
+          projectPath: Library\Artifacts\5d\5d3ce5658f1d03c1cc2719dc5a2ff86e
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2dstarter\Library\Artifacts\60
+        label: 60
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2dstarter\Library\Artifacts\60\60039a39ed41d6bb3a3adfc9e6304e5c
+        label: 60039a39ed41d6bb3a3adfc9e6304e5c
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Library\Artifacts\60\60039a39ed41d6bb3a3adfc9e6304e5c
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\60\60039a39ed41d6bb3a3adfc9e6304e5c
+          projectPath: Library\Artifacts\60\60039a39ed41d6bb3a3adfc9e6304e5c
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2dstarter\Library\Artifacts\6d
+        label: 6d
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2dstarter\Library\Artifacts\6d\6d7f23dd9ab26e3d334754cc1b83245c
+        label: 6d7f23dd9ab26e3d334754cc1b83245c
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Library\Artifacts\6d\6d7f23dd9ab26e3d334754cc1b83245c
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\6d\6d7f23dd9ab26e3d334754cc1b83245c
+          projectPath: Library\Artifacts\6d\6d7f23dd9ab26e3d334754cc1b83245c
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2dstarter\Library\Artifacts\6d\6d9344fcd153b979c7d53a8d248527c0
+        label: 6d9344fcd153b979c7d53a8d248527c0
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Library\Artifacts\6d\6d9344fcd153b979c7d53a8d248527c0
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\6d\6d9344fcd153b979c7d53a8d248527c0
+          projectPath: Library\Artifacts\6d\6d9344fcd153b979c7d53a8d248527c0
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2dstarter\Library\Artifacts\6d\6da2b811dc9633255d8e4140a78287ca
+        label: 6da2b811dc9633255d8e4140a78287ca
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Library\Artifacts\6d\6da2b811dc9633255d8e4140a78287ca
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\6d\6da2b811dc9633255d8e4140a78287ca
+          projectPath: Library\Artifacts\6d\6da2b811dc9633255d8e4140a78287ca
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2dstarter\Library\Artifacts\6e
+        label: 6e
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2dstarter\Library\Artifacts\6e\6e7463e42ee60a287292c90e2b6875da
+        label: 6e7463e42ee60a287292c90e2b6875da
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Library\Artifacts\6e\6e7463e42ee60a287292c90e2b6875da
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\6e\6e7463e42ee60a287292c90e2b6875da
+          projectPath: Library\Artifacts\6e\6e7463e42ee60a287292c90e2b6875da
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2dstarter\Library\Artifacts\74
+        label: 74
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2dstarter\Library\Artifacts\74\74d072a2c33edfa51845d279d595de12
+        label: 74d072a2c33edfa51845d279d595de12
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Library\Artifacts\74\74d072a2c33edfa51845d279d595de12
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\74\74d072a2c33edfa51845d279d595de12
+          projectPath: Library\Artifacts\74\74d072a2c33edfa51845d279d595de12
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2dstarter\Library\Artifacts\7e
+        label: 7e
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2dstarter\Library\Artifacts\7e\7ec491637e5f9755e8d73bcc60413e8c
+        label: 7ec491637e5f9755e8d73bcc60413e8c
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Library\Artifacts\7e\7ec491637e5f9755e8d73bcc60413e8c
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\7e\7ec491637e5f9755e8d73bcc60413e8c
+          projectPath: Library\Artifacts\7e\7ec491637e5f9755e8d73bcc60413e8c
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2dstarter\Library\Artifacts\90
+        label: 90
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2dstarter\Library\Artifacts\90\90196d2eb1292e7d6751e129e2c2f31a
+        label: 90196d2eb1292e7d6751e129e2c2f31a
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Library\Artifacts\90\90196d2eb1292e7d6751e129e2c2f31a
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\90\90196d2eb1292e7d6751e129e2c2f31a
+          projectPath: Library\Artifacts\90\90196d2eb1292e7d6751e129e2c2f31a
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2dstarter\Library\Artifacts\92
+        label: 92
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2dstarter\Library\Artifacts\92\92f6c9a82a3472793c0655955f26f8bd
+        label: 92f6c9a82a3472793c0655955f26f8bd
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Library\Artifacts\92\92f6c9a82a3472793c0655955f26f8bd
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\92\92f6c9a82a3472793c0655955f26f8bd
+          projectPath: Library\Artifacts\92\92f6c9a82a3472793c0655955f26f8bd
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2dstarter\Library\Artifacts\a9
+        label: a9
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2dstarter\Library\Artifacts\a9\a9cf0366e6cd7ef6b9a9d76827244f4e
+        label: a9cf0366e6cd7ef6b9a9d76827244f4e
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Library\Artifacts\a9\a9cf0366e6cd7ef6b9a9d76827244f4e
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\a9\a9cf0366e6cd7ef6b9a9d76827244f4e
+          projectPath: Library\Artifacts\a9\a9cf0366e6cd7ef6b9a9d76827244f4e
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2dstarter\Library\Artifacts\b8
+        label: b8
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2dstarter\Library\Artifacts\b8\b8089d2b88fd130f10ef0667af44e9a4
+        label: b8089d2b88fd130f10ef0667af44e9a4
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Library\Artifacts\b8\b8089d2b88fd130f10ef0667af44e9a4
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\b8\b8089d2b88fd130f10ef0667af44e9a4
+          projectPath: Library\Artifacts\b8\b8089d2b88fd130f10ef0667af44e9a4
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2dstarter\Library\Artifacts\ba
+        label: ba
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2dstarter\Library\Artifacts\ba\ba16566e5d8227bbde83c151172312be
+        label: ba16566e5d8227bbde83c151172312be
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Library\Artifacts\ba\ba16566e5d8227bbde83c151172312be
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\ba\ba16566e5d8227bbde83c151172312be
+          projectPath: Library\Artifacts\ba\ba16566e5d8227bbde83c151172312be
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2dstarter\Library\Artifacts\c3
+        label: c3
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2dstarter\Library\Artifacts\c3\c3342c0c25e5703dabbc89ab72b2284c
+        label: c3342c0c25e5703dabbc89ab72b2284c
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Library\Artifacts\c3\c3342c0c25e5703dabbc89ab72b2284c
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\c3\c3342c0c25e5703dabbc89ab72b2284c
+          projectPath: Library\Artifacts\c3\c3342c0c25e5703dabbc89ab72b2284c
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2dstarter\Library\Artifacts\ca
+        label: ca
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2dstarter\Library\Artifacts\ca\ca8e4096ce2b52002ecfee5a3b76f09a
+        label: ca8e4096ce2b52002ecfee5a3b76f09a
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Library\Artifacts\ca\ca8e4096ce2b52002ecfee5a3b76f09a
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\ca\ca8e4096ce2b52002ecfee5a3b76f09a
+          projectPath: Library\Artifacts\ca\ca8e4096ce2b52002ecfee5a3b76f09a
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2dstarter\Library\Artifacts\ca\cad9b6e05d4dd37af3e9cac38334fb68
+        label: cad9b6e05d4dd37af3e9cac38334fb68
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Library\Artifacts\ca\cad9b6e05d4dd37af3e9cac38334fb68
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\ca\cad9b6e05d4dd37af3e9cac38334fb68
+          projectPath: Library\Artifacts\ca\cad9b6e05d4dd37af3e9cac38334fb68
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2dstarter\Library\Artifacts\e0
+        label: e0
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2dstarter\Library\Artifacts\e0\e03d4230d1900b2c00396e18e14f7e5d
+        label: e03d4230d1900b2c00396e18e14f7e5d
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Library\Artifacts\e0\e03d4230d1900b2c00396e18e14f7e5d
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\e0\e03d4230d1900b2c00396e18e14f7e5d
+          projectPath: Library\Artifacts\e0\e03d4230d1900b2c00396e18e14f7e5d
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2dstarter\Library\Artifacts\ea
+        label: ea
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2dstarter\Library\Artifacts\ea\ea9ec78351e2d424e5452b390a65abb3
+        label: ea9ec78351e2d424e5452b390a65abb3
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Library\Artifacts\ea\ea9ec78351e2d424e5452b390a65abb3
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\ea\ea9ec78351e2d424e5452b390a65abb3
+          projectPath: Library\Artifacts\ea\ea9ec78351e2d424e5452b390a65abb3
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2dstarter\Library\Artifacts\ed
+        label: ed
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2dstarter\Library\Artifacts\ed\ed7dcae3bdfdca88d997d190fe405875
+        label: ed7dcae3bdfdca88d997d190fe405875
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Library\Artifacts\ed\ed7dcae3bdfdca88d997d190fe405875
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\ed\ed7dcae3bdfdca88d997d190fe405875
+          projectPath: Library\Artifacts\ed\ed7dcae3bdfdca88d997d190fe405875
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2dstarter\Library\Artifacts\f4
+        label: f4
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2dstarter\Library\Artifacts\f4\f41f466fc424be4b573567c6d59d9c40
+        label: f41f466fc424be4b573567c6d59d9c40
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Library\Artifacts\f4\f41f466fc424be4b573567c6d59d9c40
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\f4\f41f466fc424be4b573567c6d59d9c40
+          projectPath: Library\Artifacts\f4\f41f466fc424be4b573567c6d59d9c40
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2dstarter\Library\Artifacts\f4\f47846c22a5c131965f33ef55731648f
+        label: f47846c22a5c131965f33ef55731648f
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Library\Artifacts\f4\f47846c22a5c131965f33ef55731648f
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\f4\f47846c22a5c131965f33ef55731648f
+          projectPath: Library\Artifacts\f4\f47846c22a5c131965f33ef55731648f
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2dstarter\Library\CurrentLayout-default.dwlt
+        label: CurrentLayout-default.dwlt
         level: 2
         isFolder: 0
         isContainer: 0
@@ -1120,9 +2681,27 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: 2dstarter\Library\CurrentLayout.dwlt
-          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\CurrentLayout.dwlt
-          projectPath: Library\CurrentLayout.dwlt
+          path: 2dstarter\Library\CurrentLayout-default.dwlt
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\CurrentLayout-default.dwlt
+          projectPath: Library\CurrentLayout-default.dwlt
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: 2dstarter\Library\CurrentMaximizeLayout.dwlt
+        label: CurrentMaximizeLayout.dwlt
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Library\CurrentMaximizeLayout.dwlt
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\CurrentMaximizeLayout.dwlt
+          projectPath: Library\CurrentMaximizeLayout.dwlt
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
@@ -1141,6 +2720,24 @@ MonoBehaviour:
           path: 2dstarter\Library\EditorInstance.json
           fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\EditorInstance.json
           projectPath: Library\EditorInstance.json
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: 2dstarter\Library\expandedItems
+        label: expandedItems
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Library\expandedItems
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\expandedItems
+          projectPath: Library\expandedItems
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
@@ -1270,27 +2867,9 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
-      - path: 2dstarter\Library\GridBrush
-        label: GridBrush
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: 2dstarter\Library\GridBrush\UnityEditor.GridBrush.asset
-        label: UnityEditor.GridBrush.asset
-        level: 3
+      - path: 2dstarter\Library\gfu\cache\repoinfo.yaml
+        label: repoinfo.yaml
+        level: 4
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -1300,9 +2879,9 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: 2dstarter\Library\GridBrush\UnityEditor.GridBrush.asset
-          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\GridBrush\UnityEditor.GridBrush.asset
-          projectPath: Library\GridBrush\UnityEditor.GridBrush.asset
+          path: 2dstarter\Library\gfu\cache\repoinfo.yaml
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\gfu\cache\repoinfo.yaml
+          projectPath: Library\gfu\cache\repoinfo.yaml
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
@@ -1324,45 +2903,9 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
-      - path: 2dstarter\Library\metadata
-        label: metadata
+      - path: 2dstarter\Library\SceneVisibilityState.asset
+        label: SceneVisibilityState.asset
         level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: 2dstarter\Library\metadata\34
-        label: 34
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: 2dstarter\Library\metadata\34\3406aec83330a57468f1ad36df092da4
-        label: 3406aec83330a57468f1ad36df092da4
-        level: 4
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -1372,120 +2915,12 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: 2dstarter\Library\metadata\34\3406aec83330a57468f1ad36df092da4
-          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\34\3406aec83330a57468f1ad36df092da4
-          projectPath: Library\metadata\34\3406aec83330a57468f1ad36df092da4
+          path: 2dstarter\Library\SceneVisibilityState.asset
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\SceneVisibilityState.asset
+          projectPath: Library\SceneVisibilityState.asset
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
-      - path: 2dstarter\Library\metadata\3a
-        label: 3a
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: 2dstarter\Library\metadata\3a\3a6381ef3d9397445906f2baa982f0a0
-        label: 3a6381ef3d9397445906f2baa982f0a0
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 2dstarter\Library\metadata\3a\3a6381ef3d9397445906f2baa982f0a0
-          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\3a\3a6381ef3d9397445906f2baa982f0a0
-          projectPath: Library\metadata\3a\3a6381ef3d9397445906f2baa982f0a0
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: 2dstarter\Library\metadata\3a\3a6381ef3d9397445906f2baa982f0a0.info
-        label: 3a6381ef3d9397445906f2baa982f0a0.info
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 2dstarter\Library\metadata\3a\3a6381ef3d9397445906f2baa982f0a0.info
-          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\3a\3a6381ef3d9397445906f2baa982f0a0.info
-          projectPath: Library\metadata\3a\3a6381ef3d9397445906f2baa982f0a0.info
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: 2dstarter\Library\metadata\77
-        label: 77
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: 2dstarter\Library\metadata\77\777df0ab8fbe2c9409ec19e6d0646c56
-        label: 777df0ab8fbe2c9409ec19e6d0646c56
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 2dstarter\Library\metadata\77\777df0ab8fbe2c9409ec19e6d0646c56
-          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\77\777df0ab8fbe2c9409ec19e6d0646c56
-          projectPath: Library\metadata\77\777df0ab8fbe2c9409ec19e6d0646c56
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: 2dstarter\Library\metadata\77\777df0ab8fbe2c9409ec19e6d0646c56.info
-        label: 777df0ab8fbe2c9409ec19e6d0646c56.info
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 2dstarter\Library\metadata\77\777df0ab8fbe2c9409ec19e6d0646c56.info
-          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\77\777df0ab8fbe2c9409ec19e6d0646c56.info
-          projectPath: Library\metadata\77\777df0ab8fbe2c9409ec19e6d0646c56.info
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
       - path: 2dstarter\Library\ScriptAssemblies
         label: ScriptAssemblies
         level: 2
@@ -1540,8 +2975,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
-      - path: 2dstarter\Library\shadercompiler-UnityShaderCompiler.exe0.log
-        label: shadercompiler-UnityShaderCompiler.exe0.log
+      - path: 2dstarter\Library\shadercompiler-UnityShaderCompiler.exe4.log
+        label: shadercompiler-UnityShaderCompiler.exe4.log
         level: 2
         isFolder: 0
         isContainer: 0
@@ -1552,9 +2987,45 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: 2dstarter\Library\shadercompiler-UnityShaderCompiler.exe0.log
-          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\shadercompiler-UnityShaderCompiler.exe0.log
-          projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+          path: 2dstarter\Library\shadercompiler-UnityShaderCompiler.exe4.log
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\shadercompiler-UnityShaderCompiler.exe4.log
+          projectPath: Library\shadercompiler-UnityShaderCompiler.exe4.log
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: 2dstarter\Library\shadercompiler-UnityShaderCompiler.exe5.log
+        label: shadercompiler-UnityShaderCompiler.exe5.log
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Library\shadercompiler-UnityShaderCompiler.exe5.log
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\shadercompiler-UnityShaderCompiler.exe5.log
+          projectPath: Library\shadercompiler-UnityShaderCompiler.exe5.log
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: 2dstarter\Library\SourceAssetDB
+        label: SourceAssetDB
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Library\SourceAssetDB
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\SourceAssetDB
+          projectPath: Library\SourceAssetDB
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
@@ -1594,6 +3065,24 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: 2dstarter\Library\StateCache\Hierarchy\3ae34e-34c1cd7ac91c97446b.json
+        label: 3ae34e-34c1cd7ac91c97446b.json
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Library\StateCache\Hierarchy\3ae34e-34c1cd7ac91c97446b.json
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\StateCache\Hierarchy\3ae34e-34c1cd7ac91c97446b.json
+          projectPath: Library\StateCache\Hierarchy\3ae34e-34c1cd7ac91c97446b.json
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
       - path: 2dstarter\Library\StateCache\Hierarchy\3ae34e-mainStage.json
         label: 3ae34e-mainStage.json
         level: 4
@@ -1630,6 +3119,24 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: 2dstarter\Library\StateCache\SceneView\6e8e25-34c1cd7ac91c97446b.json
+        label: 6e8e25-34c1cd7ac91c97446b.json
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Library\StateCache\SceneView\6e8e25-34c1cd7ac91c97446b.json
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\StateCache\SceneView\6e8e25-34c1cd7ac91c97446b.json
+          projectPath: Library\StateCache\SceneView\6e8e25-34c1cd7ac91c97446b.json
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
       - path: 2dstarter\Library\StateCache\SceneView\6e8e25-mainStage.json
         label: 6e8e25-mainStage.json
         level: 4
@@ -1648,8 +3155,188 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
-      - path: 2dstarter\Library\TilemapEditorUserSettings.asset
-        label: TilemapEditorUserSettings.asset
+      - path: 2dstarter\obj
+        label: obj
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2dstarter\obj\Debug
+        label: Debug
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2dstarter\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+        label: Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+          projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2dstarter\obj\Debug\Unity.2D.Tilemap.Editor.csprojAssemblyReference.cache
+        label: Unity.2D.Tilemap.Editor.csprojAssemblyReference.cache
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\obj\Debug\Unity.2D.Tilemap.Editor.csprojAssemblyReference.cache
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\obj\Debug\Unity.2D.Tilemap.Editor.csprojAssemblyReference.cache
+          projectPath: obj\Debug\Unity.2D.Tilemap.Editor.csprojAssemblyReference.cache
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: 2dstarter\obj\Debug\Unity.Analytics.DataPrivacy.csprojAssemblyReference.cache
+        label: Unity.Analytics.DataPrivacy.csprojAssemblyReference.cache
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\obj\Debug\Unity.Analytics.DataPrivacy.csprojAssemblyReference.cache
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\obj\Debug\Unity.Analytics.DataPrivacy.csprojAssemblyReference.cache
+          projectPath: obj\Debug\Unity.Analytics.DataPrivacy.csprojAssemblyReference.cache
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2dstarter\obj\Debug\Unity.CollabProxy.Editor.csprojAssemblyReference.cache
+        label: Unity.CollabProxy.Editor.csprojAssemblyReference.cache
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\obj\Debug\Unity.CollabProxy.Editor.csprojAssemblyReference.cache
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\obj\Debug\Unity.CollabProxy.Editor.csprojAssemblyReference.cache
+          projectPath: obj\Debug\Unity.CollabProxy.Editor.csprojAssemblyReference.cache
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: 2dstarter\obj\Debug\Unity.Rider.Editor.csprojAssemblyReference.cache
+        label: Unity.Rider.Editor.csprojAssemblyReference.cache
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\obj\Debug\Unity.Rider.Editor.csprojAssemblyReference.cache
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\obj\Debug\Unity.Rider.Editor.csprojAssemblyReference.cache
+          projectPath: obj\Debug\Unity.Rider.Editor.csprojAssemblyReference.cache
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: 2dstarter\obj\Debug\UnityEngine.Monetization.csprojAssemblyReference.cache
+        label: UnityEngine.Monetization.csprojAssemblyReference.cache
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\obj\Debug\UnityEngine.Monetization.csprojAssemblyReference.cache
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\obj\Debug\UnityEngine.Monetization.csprojAssemblyReference.cache
+          projectPath: obj\Debug\UnityEngine.Monetization.csprojAssemblyReference.cache
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2dstarter\obj\Debug\UnityEngine.Purchasing.csprojAssemblyReference.cache
+        label: UnityEngine.Purchasing.csprojAssemblyReference.cache
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\obj\Debug\UnityEngine.Purchasing.csprojAssemblyReference.cache
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\obj\Debug\UnityEngine.Purchasing.csprojAssemblyReference.cache
+          projectPath: obj\Debug\UnityEngine.Purchasing.csprojAssemblyReference.cache
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: 2dstarter\ProjectSettings
+        label: ProjectSettings
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2dstarter\ProjectSettings\EditorBuildSettings.asset
+        label: EditorBuildSettings.asset
         level: 2
         isFolder: 0
         isContainer: 0
@@ -1660,9 +3347,9 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: 2dstarter\Library\TilemapEditorUserSettings.asset
-          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\TilemapEditorUserSettings.asset
-          projectPath: Library\TilemapEditorUserSettings.asset
+          path: 2dstarter\ProjectSettings\EditorBuildSettings.asset
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\ProjectSettings\EditorBuildSettings.asset
+          projectPath: ProjectSettings\EditorBuildSettings.asset
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
@@ -1684,6 +3371,42 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: 2dstarter\Temp\__Backupscenes
+        label: __Backupscenes
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2dstarter\Temp\__Backupscenes\0.backup
+        label: 0.backup
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Temp\__Backupscenes\0.backup
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\__Backupscenes\0.backup
+          projectPath: Temp\__Backupscenes\0.backup
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
       - path: 2dstarter\Temp\UnityLockfile
         label: UnityLockfile
         level: 2
@@ -1702,8 +3425,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: 2dstarter\Temp\UnityTempFile-b586106a33484ed47ab178069acbe47d
-        label: UnityTempFile-b586106a33484ed47ab178069acbe47d
+      - path: 2dstarter\Temp\UnityTempFile-0925f5301923efb4197d2d0f56478e2a
+        label: UnityTempFile-0925f5301923efb4197d2d0f56478e2a
         level: 2
         isFolder: 0
         isContainer: 0
@@ -1714,14 +3437,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: 2dstarter\Temp\UnityTempFile-b586106a33484ed47ab178069acbe47d
-          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-b586106a33484ed47ab178069acbe47d
-          projectPath: Temp\UnityTempFile-b586106a33484ed47ab178069acbe47d
+          path: 2dstarter\Temp\UnityTempFile-0925f5301923efb4197d2d0f56478e2a
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-0925f5301923efb4197d2d0f56478e2a
+          projectPath: Temp\UnityTempFile-0925f5301923efb4197d2d0f56478e2a
           originalPath: 
           indexStatus: 0
           workTreeStatus: 5
-      - path: 2dstarter\Temp\UnityTempFile-ea3eada48f0676947bb446e868f750be
-        label: UnityTempFile-ea3eada48f0676947bb446e868f750be
+      - path: 2dstarter\Temp\UnityTempFile-1d80cdad1d76f794e981a41f9e984e27
+        label: UnityTempFile-1d80cdad1d76f794e981a41f9e984e27
         level: 2
         isFolder: 0
         isContainer: 0
@@ -1732,35 +3455,359 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: 2dstarter\Temp\UnityTempFile-ea3eada48f0676947bb446e868f750be
-          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-ea3eada48f0676947bb446e868f750be
-          projectPath: Temp\UnityTempFile-ea3eada48f0676947bb446e868f750be
+          path: 2dstarter\Temp\UnityTempFile-1d80cdad1d76f794e981a41f9e984e27
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-1d80cdad1d76f794e981a41f9e984e27
+          projectPath: Temp\UnityTempFile-1d80cdad1d76f794e981a41f9e984e27
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2dstarter\Temp\UnityTempFile-1e9d821ff696e0a4f831b71b3d2ef6e3
+        label: UnityTempFile-1e9d821ff696e0a4f831b71b3d2ef6e3
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Temp\UnityTempFile-1e9d821ff696e0a4f831b71b3d2ef6e3
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-1e9d821ff696e0a4f831b71b3d2ef6e3
+          projectPath: Temp\UnityTempFile-1e9d821ff696e0a4f831b71b3d2ef6e3
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2dstarter\Temp\UnityTempFile-340238d38055c8b4ca86b5ace5dd17ba
+        label: UnityTempFile-340238d38055c8b4ca86b5ace5dd17ba
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Temp\UnityTempFile-340238d38055c8b4ca86b5ace5dd17ba
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-340238d38055c8b4ca86b5ace5dd17ba
+          projectPath: Temp\UnityTempFile-340238d38055c8b4ca86b5ace5dd17ba
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2dstarter\Temp\UnityTempFile-45a84abf976c3fc42a9051da216150ed
+        label: UnityTempFile-45a84abf976c3fc42a9051da216150ed
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Temp\UnityTempFile-45a84abf976c3fc42a9051da216150ed
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-45a84abf976c3fc42a9051da216150ed
+          projectPath: Temp\UnityTempFile-45a84abf976c3fc42a9051da216150ed
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2dstarter\Temp\UnityTempFile-4dfa0cd53c1af964db4f63a3b10bd0ba
+        label: UnityTempFile-4dfa0cd53c1af964db4f63a3b10bd0ba
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Temp\UnityTempFile-4dfa0cd53c1af964db4f63a3b10bd0ba
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-4dfa0cd53c1af964db4f63a3b10bd0ba
+          projectPath: Temp\UnityTempFile-4dfa0cd53c1af964db4f63a3b10bd0ba
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2dstarter\Temp\UnityTempFile-648dbf3905648374d9dc3c10feb1462e
+        label: UnityTempFile-648dbf3905648374d9dc3c10feb1462e
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Temp\UnityTempFile-648dbf3905648374d9dc3c10feb1462e
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-648dbf3905648374d9dc3c10feb1462e
+          projectPath: Temp\UnityTempFile-648dbf3905648374d9dc3c10feb1462e
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2dstarter\Temp\UnityTempFile-7242f0858fc4bec4ba243d0310c2757e
+        label: UnityTempFile-7242f0858fc4bec4ba243d0310c2757e
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Temp\UnityTempFile-7242f0858fc4bec4ba243d0310c2757e
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-7242f0858fc4bec4ba243d0310c2757e
+          projectPath: Temp\UnityTempFile-7242f0858fc4bec4ba243d0310c2757e
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2dstarter\Temp\UnityTempFile-78392932374b98f4c95eadccabd5be01
+        label: UnityTempFile-78392932374b98f4c95eadccabd5be01
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Temp\UnityTempFile-78392932374b98f4c95eadccabd5be01
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-78392932374b98f4c95eadccabd5be01
+          projectPath: Temp\UnityTempFile-78392932374b98f4c95eadccabd5be01
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
+      - path: 2dstarter\Temp\UnityTempFile-9db16ebde1d62b244b29e7e18f0242fc
+        label: UnityTempFile-9db16ebde1d62b244b29e7e18f0242fc
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Temp\UnityTempFile-9db16ebde1d62b244b29e7e18f0242fc
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-9db16ebde1d62b244b29e7e18f0242fc
+          projectPath: Temp\UnityTempFile-9db16ebde1d62b244b29e7e18f0242fc
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2dstarter\Temp\UnityTempFile-9f26c718095cd0547aafefd2143d9ba1
+        label: UnityTempFile-9f26c718095cd0547aafefd2143d9ba1
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Temp\UnityTempFile-9f26c718095cd0547aafefd2143d9ba1
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-9f26c718095cd0547aafefd2143d9ba1
+          projectPath: Temp\UnityTempFile-9f26c718095cd0547aafefd2143d9ba1
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2dstarter\Temp\UnityTempFile-a2d6d94849378e54daaaf1aa84e04578
+        label: UnityTempFile-a2d6d94849378e54daaaf1aa84e04578
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Temp\UnityTempFile-a2d6d94849378e54daaaf1aa84e04578
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-a2d6d94849378e54daaaf1aa84e04578
+          projectPath: Temp\UnityTempFile-a2d6d94849378e54daaaf1aa84e04578
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2dstarter\Temp\UnityTempFile-a57b21771e48bcc4692f19e3efc51c80
+        label: UnityTempFile-a57b21771e48bcc4692f19e3efc51c80
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Temp\UnityTempFile-a57b21771e48bcc4692f19e3efc51c80
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-a57b21771e48bcc4692f19e3efc51c80
+          projectPath: Temp\UnityTempFile-a57b21771e48bcc4692f19e3efc51c80
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2dstarter\Temp\UnityTempFile-ab27966d38354064a8e035faf0621ade
+        label: UnityTempFile-ab27966d38354064a8e035faf0621ade
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Temp\UnityTempFile-ab27966d38354064a8e035faf0621ade
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-ab27966d38354064a8e035faf0621ade
+          projectPath: Temp\UnityTempFile-ab27966d38354064a8e035faf0621ade
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2dstarter\Temp\UnityTempFile-ad550117927f83047addae95cb144729
+        label: UnityTempFile-ad550117927f83047addae95cb144729
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Temp\UnityTempFile-ad550117927f83047addae95cb144729
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-ad550117927f83047addae95cb144729
+          projectPath: Temp\UnityTempFile-ad550117927f83047addae95cb144729
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2dstarter\Temp\UnityTempFile-c1df7adef4007dd4c8fedd23dfc82b49
+        label: UnityTempFile-c1df7adef4007dd4c8fedd23dfc82b49
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Temp\UnityTempFile-c1df7adef4007dd4c8fedd23dfc82b49
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-c1df7adef4007dd4c8fedd23dfc82b49
+          projectPath: Temp\UnityTempFile-c1df7adef4007dd4c8fedd23dfc82b49
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2dstarter\Temp\UnityTempFile-c52810929349a714aaade634546a68f9
+        label: UnityTempFile-c52810929349a714aaade634546a68f9
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Temp\UnityTempFile-c52810929349a714aaade634546a68f9
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-c52810929349a714aaade634546a68f9
+          projectPath: Temp\UnityTempFile-c52810929349a714aaade634546a68f9
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2dstarter\Temp\UnityTempFile-e2e03306772903346ad826e4e4706c4d
+        label: UnityTempFile-e2e03306772903346ad826e4e4706c4d
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Temp\UnityTempFile-e2e03306772903346ad826e4e4706c4d
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-e2e03306772903346ad826e4e4706c4d
+          projectPath: Temp\UnityTempFile-e2e03306772903346ad826e4e4706c4d
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2dstarter\Temp\UnityTempFile-f9f2a3a91dd44ea4287a5d6df9dd7ebb
+        label: UnityTempFile-f9f2a3a91dd44ea4287a5d6df9dd7ebb
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2dstarter\Temp\UnityTempFile-f9f2a3a91dd44ea4287a5d6df9dd7ebb
+          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-f9f2a3a91dd44ea4287a5d6df9dd7ebb
+          projectPath: Temp\UnityTempFile-f9f2a3a91dd44ea4287a5d6df9dd7ebb
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
       selectedNode:
-        path: 2dstarter\Temp\UnityLockfile
-        label: UnityLockfile
-        level: 2
+        path: 
+        label: 
+        level: 0
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
         isHidden: 0
         isActive: 0
-        treeIsCheckable: 1
+        treeIsCheckable: 0
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: 2dstarter\Temp\UnityLockfile
-          fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityLockfile
-          projectPath: Temp\UnityLockfile
+          path: 
+          fullPath: 
+          projectPath: 
           originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
+          indexStatus: 0
+          workTreeStatus: 0
     gitStatusEntries:
+    - path: 2dstarter\.vs\2dstarter\v16\.suo
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\.vs\2dstarter\v16\.suo
+      projectPath: .vs\2dstarter\v16\.suo
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
     - path: 2dstarter\Assembly-CSharp.csproj
       fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assembly-CSharp.csproj
       projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: 2dstarter\Assets\prefabs\slimey1.prefab
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\prefabs\slimey1.prefab
+      projectPath: Assets\prefabs\slimey1.prefab
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: 2dstarter\Assets\prefabs\water.prefab
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\prefabs\water.prefab
+      projectPath: Assets\prefabs\water.prefab
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
@@ -1770,51 +3817,231 @@ MonoBehaviour:
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: 2dstarter\Assets\scripts\gameManager.cs
-      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\scripts\gameManager.cs
-      projectPath: Assets\scripts\gameManager.cs
+    - path: 2dstarter\Assets\Scenes\GameOver.unity
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\Scenes\GameOver.unity
+      projectPath: Assets\Scenes\GameOver.unity
       originalPath: 
       indexStatus: 0
-      workTreeStatus: 5
-    - path: 2dstarter\Assets\scripts\gameManager.cs.meta
-      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\scripts\gameManager.cs.meta
-      projectPath: Assets\scripts\gameManager.cs.meta
+      workTreeStatus: 3
+    - path: 2dstarter\Assets\Scenes\Intro.unity
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\Scenes\Intro.unity
+      projectPath: Assets\Scenes\Intro.unity
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2dstarter\Assets\Scenes\Intro.unity.meta
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\Scenes\Intro.unity.meta
+      projectPath: Assets\Scenes\Intro.unity.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2dstarter\Assets\scripts\EnemyMovement.cs
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\scripts\EnemyMovement.cs
+      projectPath: Assets\scripts\EnemyMovement.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2dstarter\Assets\scripts\EnemyMovement.cs.meta
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\scripts\EnemyMovement.cs.meta
+      projectPath: Assets\scripts\EnemyMovement.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2dstarter\Assets\scripts\GameManager.cs
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\scripts\GameManager.cs
+      projectPath: Assets\scripts\GameManager.cs
       originalPath: 
       indexStatus: 0
-      workTreeStatus: 5
+      workTreeStatus: 3
     - path: 2dstarter\Assets\scripts\PlayerMovement.cs
       fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\scripts\PlayerMovement.cs
       projectPath: Assets\scripts\PlayerMovement.cs
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: 2dstarter\Assets\scripts\PlayerMovement.cs.meta
-      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\scripts\PlayerMovement.cs.meta
-      projectPath: Assets\scripts\PlayerMovement.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: 2dstarter\Assets\scripts\walkingdino.cs
-      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Assets\scripts\walkingdino.cs
-      projectPath: Assets\scripts\walkingdino.cs
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: 2dstarter\Library\ArtifactDB
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\ArtifactDB
+      projectPath: Library\ArtifactDB
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: 2dstarter\Library\assetDatabase3
-      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\assetDatabase3
-      projectPath: Library\assetDatabase3
+    - path: 2dstarter\Library\Artifacts\16\16b6e44dd839534cfb8783fc9c425d79
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\16\16b6e44dd839534cfb8783fc9c425d79
+      projectPath: Library\Artifacts\16\16b6e44dd839534cfb8783fc9c425d79
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2dstarter\Library\Artifacts\1c\1cad116b7a56f10449626ea27b296d5c
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\1c\1cad116b7a56f10449626ea27b296d5c
+      projectPath: Library\Artifacts\1c\1cad116b7a56f10449626ea27b296d5c
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2dstarter\Library\Artifacts\20\2082c42f5a314641f2ac3f375ede13b4
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\20\2082c42f5a314641f2ac3f375ede13b4
+      projectPath: Library\Artifacts\20\2082c42f5a314641f2ac3f375ede13b4
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2dstarter\Library\Artifacts\2c\2cd8ec0ba2c986fa5c8640aa60d003f7
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\2c\2cd8ec0ba2c986fa5c8640aa60d003f7
+      projectPath: Library\Artifacts\2c\2cd8ec0ba2c986fa5c8640aa60d003f7
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2dstarter\Library\Artifacts\2d\2daae70be4e73145da4ddd70494c1385
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\2d\2daae70be4e73145da4ddd70494c1385
+      projectPath: Library\Artifacts\2d\2daae70be4e73145da4ddd70494c1385
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2dstarter\Library\Artifacts\5d\5d3ce5658f1d03c1cc2719dc5a2ff86e
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\5d\5d3ce5658f1d03c1cc2719dc5a2ff86e
+      projectPath: Library\Artifacts\5d\5d3ce5658f1d03c1cc2719dc5a2ff86e
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2dstarter\Library\Artifacts\60\60039a39ed41d6bb3a3adfc9e6304e5c
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\60\60039a39ed41d6bb3a3adfc9e6304e5c
+      projectPath: Library\Artifacts\60\60039a39ed41d6bb3a3adfc9e6304e5c
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2dstarter\Library\Artifacts\6d\6d7f23dd9ab26e3d334754cc1b83245c
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\6d\6d7f23dd9ab26e3d334754cc1b83245c
+      projectPath: Library\Artifacts\6d\6d7f23dd9ab26e3d334754cc1b83245c
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2dstarter\Library\Artifacts\6d\6d9344fcd153b979c7d53a8d248527c0
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\6d\6d9344fcd153b979c7d53a8d248527c0
+      projectPath: Library\Artifacts\6d\6d9344fcd153b979c7d53a8d248527c0
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2dstarter\Library\Artifacts\6d\6da2b811dc9633255d8e4140a78287ca
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\6d\6da2b811dc9633255d8e4140a78287ca
+      projectPath: Library\Artifacts\6d\6da2b811dc9633255d8e4140a78287ca
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2dstarter\Library\Artifacts\6e\6e7463e42ee60a287292c90e2b6875da
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\6e\6e7463e42ee60a287292c90e2b6875da
+      projectPath: Library\Artifacts\6e\6e7463e42ee60a287292c90e2b6875da
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2dstarter\Library\Artifacts\74\74d072a2c33edfa51845d279d595de12
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\74\74d072a2c33edfa51845d279d595de12
+      projectPath: Library\Artifacts\74\74d072a2c33edfa51845d279d595de12
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2dstarter\Library\Artifacts\7e\7ec491637e5f9755e8d73bcc60413e8c
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\7e\7ec491637e5f9755e8d73bcc60413e8c
+      projectPath: Library\Artifacts\7e\7ec491637e5f9755e8d73bcc60413e8c
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2dstarter\Library\Artifacts\90\90196d2eb1292e7d6751e129e2c2f31a
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\90\90196d2eb1292e7d6751e129e2c2f31a
+      projectPath: Library\Artifacts\90\90196d2eb1292e7d6751e129e2c2f31a
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2dstarter\Library\Artifacts\92\92f6c9a82a3472793c0655955f26f8bd
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\92\92f6c9a82a3472793c0655955f26f8bd
+      projectPath: Library\Artifacts\92\92f6c9a82a3472793c0655955f26f8bd
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2dstarter\Library\Artifacts\a9\a9cf0366e6cd7ef6b9a9d76827244f4e
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\a9\a9cf0366e6cd7ef6b9a9d76827244f4e
+      projectPath: Library\Artifacts\a9\a9cf0366e6cd7ef6b9a9d76827244f4e
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2dstarter\Library\Artifacts\b8\b8089d2b88fd130f10ef0667af44e9a4
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\b8\b8089d2b88fd130f10ef0667af44e9a4
+      projectPath: Library\Artifacts\b8\b8089d2b88fd130f10ef0667af44e9a4
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2dstarter\Library\Artifacts\ba\ba16566e5d8227bbde83c151172312be
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\ba\ba16566e5d8227bbde83c151172312be
+      projectPath: Library\Artifacts\ba\ba16566e5d8227bbde83c151172312be
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2dstarter\Library\Artifacts\c3\c3342c0c25e5703dabbc89ab72b2284c
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\c3\c3342c0c25e5703dabbc89ab72b2284c
+      projectPath: Library\Artifacts\c3\c3342c0c25e5703dabbc89ab72b2284c
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2dstarter\Library\Artifacts\ca\ca8e4096ce2b52002ecfee5a3b76f09a
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\ca\ca8e4096ce2b52002ecfee5a3b76f09a
+      projectPath: Library\Artifacts\ca\ca8e4096ce2b52002ecfee5a3b76f09a
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2dstarter\Library\Artifacts\ca\cad9b6e05d4dd37af3e9cac38334fb68
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\ca\cad9b6e05d4dd37af3e9cac38334fb68
+      projectPath: Library\Artifacts\ca\cad9b6e05d4dd37af3e9cac38334fb68
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2dstarter\Library\Artifacts\e0\e03d4230d1900b2c00396e18e14f7e5d
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\e0\e03d4230d1900b2c00396e18e14f7e5d
+      projectPath: Library\Artifacts\e0\e03d4230d1900b2c00396e18e14f7e5d
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2dstarter\Library\Artifacts\ea\ea9ec78351e2d424e5452b390a65abb3
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\ea\ea9ec78351e2d424e5452b390a65abb3
+      projectPath: Library\Artifacts\ea\ea9ec78351e2d424e5452b390a65abb3
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2dstarter\Library\Artifacts\ed\ed7dcae3bdfdca88d997d190fe405875
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\ed\ed7dcae3bdfdca88d997d190fe405875
+      projectPath: Library\Artifacts\ed\ed7dcae3bdfdca88d997d190fe405875
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2dstarter\Library\Artifacts\f4\f41f466fc424be4b573567c6d59d9c40
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\f4\f41f466fc424be4b573567c6d59d9c40
+      projectPath: Library\Artifacts\f4\f41f466fc424be4b573567c6d59d9c40
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2dstarter\Library\Artifacts\f4\f47846c22a5c131965f33ef55731648f
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\Artifacts\f4\f47846c22a5c131965f33ef55731648f
+      projectPath: Library\Artifacts\f4\f47846c22a5c131965f33ef55731648f
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2dstarter\Library\CurrentLayout-default.dwlt
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\CurrentLayout-default.dwlt
+      projectPath: Library\CurrentLayout-default.dwlt
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: 2dstarter\Library\CurrentLayout.dwlt
-      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\CurrentLayout.dwlt
-      projectPath: Library\CurrentLayout.dwlt
+    - path: 2dstarter\Library\CurrentMaximizeLayout.dwlt
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\CurrentMaximizeLayout.dwlt
+      projectPath: Library\CurrentMaximizeLayout.dwlt
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
     - path: 2dstarter\Library\EditorInstance.json
       fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\EditorInstance.json
       projectPath: Library\EditorInstance.json
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: 2dstarter\Library\expandedItems
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\expandedItems
+      projectPath: Library\expandedItems
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
@@ -1848,9 +4075,9 @@ MonoBehaviour:
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: 2dstarter\Library\GridBrush\UnityEditor.GridBrush.asset
-      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\GridBrush\UnityEditor.GridBrush.asset
-      projectPath: Library\GridBrush\UnityEditor.GridBrush.asset
+    - path: 2dstarter\Library\gfu\cache\repoinfo.yaml
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
@@ -1860,36 +4087,12 @@ MonoBehaviour:
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: 2dstarter\Library\metadata\34\3406aec83330a57468f1ad36df092da4
-      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\34\3406aec83330a57468f1ad36df092da4
-      projectPath: Library\metadata\34\3406aec83330a57468f1ad36df092da4
+    - path: 2dstarter\Library\SceneVisibilityState.asset
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\SceneVisibilityState.asset
+      projectPath: Library\SceneVisibilityState.asset
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: 2dstarter\Library\metadata\3a\3a6381ef3d9397445906f2baa982f0a0
-      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\3a\3a6381ef3d9397445906f2baa982f0a0
-      projectPath: Library\metadata\3a\3a6381ef3d9397445906f2baa982f0a0
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: 2dstarter\Library\metadata\3a\3a6381ef3d9397445906f2baa982f0a0.info
-      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\3a\3a6381ef3d9397445906f2baa982f0a0.info
-      projectPath: Library\metadata\3a\3a6381ef3d9397445906f2baa982f0a0.info
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: 2dstarter\Library\metadata\77\777df0ab8fbe2c9409ec19e6d0646c56
-      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\77\777df0ab8fbe2c9409ec19e6d0646c56
-      projectPath: Library\metadata\77\777df0ab8fbe2c9409ec19e6d0646c56
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: 2dstarter\Library\metadata\77\777df0ab8fbe2c9409ec19e6d0646c56.info
-      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\metadata\77\777df0ab8fbe2c9409ec19e6d0646c56.info
-      projectPath: Library\metadata\77\777df0ab8fbe2c9409ec19e6d0646c56.info
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
     - path: 2dstarter\Library\ScriptAssemblies\Assembly-CSharp.dll
       fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\ScriptAssemblies\Assembly-CSharp.dll
       projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
@@ -1902,27 +4105,99 @@ MonoBehaviour:
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: 2dstarter\Library\shadercompiler-UnityShaderCompiler.exe0.log
-      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\shadercompiler-UnityShaderCompiler.exe0.log
-      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    - path: 2dstarter\Library\shadercompiler-UnityShaderCompiler.exe4.log
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\shadercompiler-UnityShaderCompiler.exe4.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe4.log
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
+    - path: 2dstarter\Library\shadercompiler-UnityShaderCompiler.exe5.log
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\shadercompiler-UnityShaderCompiler.exe5.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe5.log
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: 2dstarter\Library\SourceAssetDB
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\SourceAssetDB
+      projectPath: Library\SourceAssetDB
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: 2dstarter\Library\StateCache\Hierarchy\3ae34e-34c1cd7ac91c97446b.json
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\StateCache\Hierarchy\3ae34e-34c1cd7ac91c97446b.json
+      projectPath: Library\StateCache\Hierarchy\3ae34e-34c1cd7ac91c97446b.json
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
     - path: 2dstarter\Library\StateCache\Hierarchy\3ae34e-mainStage.json
       fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\StateCache\Hierarchy\3ae34e-mainStage.json
       projectPath: Library\StateCache\Hierarchy\3ae34e-mainStage.json
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
+    - path: 2dstarter\Library\StateCache\SceneView\6e8e25-34c1cd7ac91c97446b.json
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\StateCache\SceneView\6e8e25-34c1cd7ac91c97446b.json
+      projectPath: Library\StateCache\SceneView\6e8e25-34c1cd7ac91c97446b.json
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
     - path: 2dstarter\Library\StateCache\SceneView\6e8e25-mainStage.json
       fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\StateCache\SceneView\6e8e25-mainStage.json
       projectPath: Library\StateCache\SceneView\6e8e25-mainStage.json
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: 2dstarter\Library\TilemapEditorUserSettings.asset
-      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Library\TilemapEditorUserSettings.asset
-      projectPath: Library\TilemapEditorUserSettings.asset
+    - path: 2dstarter\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2dstarter\obj\Debug\Unity.2D.Tilemap.Editor.csprojAssemblyReference.cache
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\obj\Debug\Unity.2D.Tilemap.Editor.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Unity.2D.Tilemap.Editor.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: 2dstarter\obj\Debug\Unity.Analytics.DataPrivacy.csprojAssemblyReference.cache
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\obj\Debug\Unity.Analytics.DataPrivacy.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Unity.Analytics.DataPrivacy.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2dstarter\obj\Debug\Unity.CollabProxy.Editor.csprojAssemblyReference.cache
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\obj\Debug\Unity.CollabProxy.Editor.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Unity.CollabProxy.Editor.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: 2dstarter\obj\Debug\Unity.Rider.Editor.csprojAssemblyReference.cache
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\obj\Debug\Unity.Rider.Editor.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Unity.Rider.Editor.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: 2dstarter\obj\Debug\UnityEngine.Monetization.csprojAssemblyReference.cache
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\obj\Debug\UnityEngine.Monetization.csprojAssemblyReference.cache
+      projectPath: obj\Debug\UnityEngine.Monetization.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2dstarter\obj\Debug\UnityEngine.Purchasing.csprojAssemblyReference.cache
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\obj\Debug\UnityEngine.Purchasing.csprojAssemblyReference.cache
+      projectPath: obj\Debug\UnityEngine.Purchasing.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: 2dstarter\ProjectSettings\EditorBuildSettings.asset
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: 2dstarter\Temp\__Backupscenes\0.backup
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\__Backupscenes\0.backup
+      projectPath: Temp\__Backupscenes\0.backup
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
@@ -1932,27 +4207,129 @@ MonoBehaviour:
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: 2dstarter\Temp\UnityTempFile-b586106a33484ed47ab178069acbe47d
-      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-b586106a33484ed47ab178069acbe47d
-      projectPath: Temp\UnityTempFile-b586106a33484ed47ab178069acbe47d
+    - path: 2dstarter\Temp\UnityTempFile-0925f5301923efb4197d2d0f56478e2a
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-0925f5301923efb4197d2d0f56478e2a
+      projectPath: Temp\UnityTempFile-0925f5301923efb4197d2d0f56478e2a
       originalPath: 
       indexStatus: 0
       workTreeStatus: 5
-    - path: 2dstarter\Temp\UnityTempFile-ea3eada48f0676947bb446e868f750be
-      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-ea3eada48f0676947bb446e868f750be
-      projectPath: Temp\UnityTempFile-ea3eada48f0676947bb446e868f750be
+    - path: 2dstarter\Temp\UnityTempFile-1d80cdad1d76f794e981a41f9e984e27
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-1d80cdad1d76f794e981a41f9e984e27
+      projectPath: Temp\UnityTempFile-1d80cdad1d76f794e981a41f9e984e27
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2dstarter\Temp\UnityTempFile-1e9d821ff696e0a4f831b71b3d2ef6e3
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-1e9d821ff696e0a4f831b71b3d2ef6e3
+      projectPath: Temp\UnityTempFile-1e9d821ff696e0a4f831b71b3d2ef6e3
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2dstarter\Temp\UnityTempFile-340238d38055c8b4ca86b5ace5dd17ba
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-340238d38055c8b4ca86b5ace5dd17ba
+      projectPath: Temp\UnityTempFile-340238d38055c8b4ca86b5ace5dd17ba
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2dstarter\Temp\UnityTempFile-45a84abf976c3fc42a9051da216150ed
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-45a84abf976c3fc42a9051da216150ed
+      projectPath: Temp\UnityTempFile-45a84abf976c3fc42a9051da216150ed
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2dstarter\Temp\UnityTempFile-4dfa0cd53c1af964db4f63a3b10bd0ba
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-4dfa0cd53c1af964db4f63a3b10bd0ba
+      projectPath: Temp\UnityTempFile-4dfa0cd53c1af964db4f63a3b10bd0ba
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2dstarter\Temp\UnityTempFile-648dbf3905648374d9dc3c10feb1462e
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-648dbf3905648374d9dc3c10feb1462e
+      projectPath: Temp\UnityTempFile-648dbf3905648374d9dc3c10feb1462e
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2dstarter\Temp\UnityTempFile-7242f0858fc4bec4ba243d0310c2757e
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-7242f0858fc4bec4ba243d0310c2757e
+      projectPath: Temp\UnityTempFile-7242f0858fc4bec4ba243d0310c2757e
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2dstarter\Temp\UnityTempFile-78392932374b98f4c95eadccabd5be01
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-78392932374b98f4c95eadccabd5be01
+      projectPath: Temp\UnityTempFile-78392932374b98f4c95eadccabd5be01
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    changedFilesText: 31 changed files
+    - path: 2dstarter\Temp\UnityTempFile-9db16ebde1d62b244b29e7e18f0242fc
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-9db16ebde1d62b244b29e7e18f0242fc
+      projectPath: Temp\UnityTempFile-9db16ebde1d62b244b29e7e18f0242fc
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2dstarter\Temp\UnityTempFile-9f26c718095cd0547aafefd2143d9ba1
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-9f26c718095cd0547aafefd2143d9ba1
+      projectPath: Temp\UnityTempFile-9f26c718095cd0547aafefd2143d9ba1
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2dstarter\Temp\UnityTempFile-a2d6d94849378e54daaaf1aa84e04578
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-a2d6d94849378e54daaaf1aa84e04578
+      projectPath: Temp\UnityTempFile-a2d6d94849378e54daaaf1aa84e04578
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2dstarter\Temp\UnityTempFile-a57b21771e48bcc4692f19e3efc51c80
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-a57b21771e48bcc4692f19e3efc51c80
+      projectPath: Temp\UnityTempFile-a57b21771e48bcc4692f19e3efc51c80
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2dstarter\Temp\UnityTempFile-ab27966d38354064a8e035faf0621ade
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-ab27966d38354064a8e035faf0621ade
+      projectPath: Temp\UnityTempFile-ab27966d38354064a8e035faf0621ade
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2dstarter\Temp\UnityTempFile-ad550117927f83047addae95cb144729
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-ad550117927f83047addae95cb144729
+      projectPath: Temp\UnityTempFile-ad550117927f83047addae95cb144729
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2dstarter\Temp\UnityTempFile-c1df7adef4007dd4c8fedd23dfc82b49
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-c1df7adef4007dd4c8fedd23dfc82b49
+      projectPath: Temp\UnityTempFile-c1df7adef4007dd4c8fedd23dfc82b49
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2dstarter\Temp\UnityTempFile-c52810929349a714aaade634546a68f9
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-c52810929349a714aaade634546a68f9
+      projectPath: Temp\UnityTempFile-c52810929349a714aaade634546a68f9
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2dstarter\Temp\UnityTempFile-e2e03306772903346ad826e4e4706c4d
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-e2e03306772903346ad826e4e4706c4d
+      projectPath: Temp\UnityTempFile-e2e03306772903346ad826e4e4706c4d
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2dstarter\Temp\UnityTempFile-f9f2a3a91dd44ea4287a5d6df9dd7ebb
+      fullPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter\Temp\UnityTempFile-f9f2a3a91dd44ea4287a5d6df9dd7ebb
+      projectPath: Temp\UnityTempFile-f9f2a3a91dd44ea4287a5d6df9dd7ebb
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    changedFilesText: 89 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2020-11-09T08:42:44.204+02:00
+      updatedTimeString: 2020-11-17T11:51:23.388+02:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2020-11-09T09:01:37.043+02:00
+      updatedTimeString: 2020-11-17T11:51:29.636+02:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2020-11-12T14:33:55.309+02:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -41721,7 +44098,7 @@ MonoBehaviour:
     updatedTimeString: 2020-10-29T15:47:12.774+02:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2020-10-30T13:58:44.249+02:00
+    updatedTimeString: 2020-11-12T11:16:11.405+02:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -41745,7 +44122,7 @@ MonoBehaviour:
   appManagerProgressMessage: Initialized
   connections: []
   primaryConnectionUsername: liamrcourtney
---- !u!114 &14
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41761,21 +44138,21 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Project Settings
-    m_Image: {fileID: -6304849327172165113, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 8487775502441791945, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 243.2
-    y: 72
-    width: 558
-    height: 418
+    x: 256.80002
+    y: 78.4
+    width: 823
+    height: 409
   m_ViewDataDictionary: {fileID: 0}
   m_PosLeft: {x: 0, y: 0}
   m_PosRight: {x: 0, y: 0}
   m_Scope: 1
   m_SplitterFlex: 0.13051471
---- !u!114 &15
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41791,15 +44168,15 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: 257045534191678443, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -2087823869225018852, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1082
-    y: 78.4
-    width: 447
-    height: 231
+    x: 1536
+    y: 0
+    width: 1366
+    height: 707
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -41809,7 +44186,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 447, y: 210}
+  m_TargetSize: {x: 2000, y: 1000}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -41818,22 +44195,22 @@ MonoBehaviour:
   m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 08000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -89.4
-    m_HBaseRangeMax: 89.4
-    m_VBaseRangeMin: -42
-    m_VBaseRangeMax: 42
+    m_HBaseRangeMin: -1000
+    m_HBaseRangeMax: 1000
+    m_VBaseRangeMin: -500
+    m_VBaseRangeMax: 500
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 0
+    m_HSlider: 1
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
@@ -41845,29 +44222,29 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 447
-      height: 210
-    m_Scale: {x: 2, y: 2}
-    m_Translation: {x: 223.5, y: 105}
+      width: 1366
+      height: 686
+    m_Scale: {x: 0.683, y: 0.683}
+    m_Translation: {x: 682.99994, y: 343}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -111.75
-      y: -52.5
-      width: 223.5
-      height: 105
+      x: -999.9999
+      y: -502.19617
+      width: 1999.9999
+      height: 1004.39233
     m_MinimalGUI: 1
-  m_defaultScale: 2
-  m_LastWindowPixelSize: {x: 1117.5, y: 577.5}
+  m_defaultScale: 0.683
+  m_LastWindowPixelSize: {x: 1366, y: 707}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &16
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41883,7 +44260,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: -9000905672528348964, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -590624980919486359, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -41896,9 +44273,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ae370000
-      m_LastClickedID: 14254
-      m_ExpandedIDs: 5cfbffff7cfbffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: e6e2ffff7ee3ffff92e3ffffa2e3ffff3ce4ffff86e5ffff5cfbffffd6500000da510000d4520000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -41914,7 +44291,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 6}
+        m_ClientGUIView: {fileID: 9}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -41922,7 +44299,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 3ae34e53f036ff14da586e04a176f7e9
---- !u!114 &17
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41938,17 +44315,17 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-    m_Image: {fileID: -3303252850963283158, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 111653112392082826, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 72
-    width: 252
-    height: 713
+    x: 6.8
+    y: 78.4
+    width: 249
+    height: 699
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &18
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41964,7 +44341,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: -131512000283675692, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -41984,9 +44361,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: -5.3011055, y: -25.261934, z: -168.27544}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: 31.039413, y: -10.593265, z: -163.09193}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -42022,13 +44399,13 @@ MonoBehaviour:
       m_Size: {x: 0, y: 0}
     zGrid:
       m_Fade:
-        m_Target: 1
+        m_Target: 0
         speed: 2
         m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
-    m_ShowGrid: 1
+    m_ShowGrid: 0
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
@@ -42036,9 +44413,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 10
+    m_Target: 44.32263
     speed: 2
-    m_Value: 10
+    m_Value: 34.89971
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -42063,7 +44440,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &19
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -42079,7 +44456,7 @@ MonoBehaviour:
   m_MaxSize: {x: 2048, y: 2048}
   m_TitleContent:
     m_Text: Asset Store
-    m_Image: {fileID: -4391848389275900105, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 357073275683767465, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -42089,7 +44466,7 @@ MonoBehaviour:
     width: 558
     height: 418
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &20
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -42105,7 +44482,7 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -2032128904892744680, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -7501376956915960154, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -42117,7 +44494,8 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
-    m_ClassNames: []
+    m_ClassNames:
+    - Prefab
     m_AssetLabels: []
     m_AssetBundleNames: []
     m_VersionControlStates: []
@@ -42127,21 +44505,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders:
-    - Assets/scripts
+    m_Folders: []
   m_ViewMode: 1
-  m_StartGridSize: 75
+  m_StartGridSize: 64
   m_LastFolders:
-  - Assets/scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: 75
   m_LastProjectPath: D:\Asus\Documents\unity projects\2d-Starter\2dstarter
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 32}
-    m_SelectedIDs: f4380000
-    m_LastClickedID: 14580
-    m_ExpandedIDs: 00000000f2380000f4380000f6380000f8380000fa38000000ca9a3b
+    scrollPos: {x: 0, y: 60}
+    m_SelectedIDs: 04ca9a3b
+    m_LastClickedID: 1000000004
+    m_ExpandedIDs: 00000000f4380000f6380000f8380000fa380000fc380000fe38000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -42169,7 +44546,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 8}
     m_SelectedIDs: 502b0000
     m_LastClickedID: 11088
-    m_ExpandedIDs: 00000000f2380000f4380000f6380000f8380000fa38000000ca9a3b
+    m_ExpandedIDs: 00000000f4380000f6380000f8380000fa380000fc380000fe380000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -42196,7 +44573,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000b827000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -42222,10 +44599,10 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 75
+    m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 260
---- !u!114 &21
+--- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -42241,20 +44618,20 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Animation
-    m_Image: {fileID: -8967370667835289719, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 1561878555887300916, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 244
-    y: 532
-    width: 838
-    height: 253
+    x: 256.80002
+    y: 508.4
+    width: 823
+    height: 269
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 14254
---- !u!114 &22
+  m_LastSelectedObjectID: 14146
+--- !u!114 &23
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -42270,28 +44647,45 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Animator
-    m_Image: {fileID: -6973158847631862895, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 663490763026382308, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1008
-    y: 72
-    width: 526
-    height: 237
+    x: 1082
+    y: 78.4
+    width: 447
+    height: 699
   m_ViewDataDictionary: {fileID: 0}
   m_ViewTransforms:
     m_KeySerializationHelper:
-    - {fileID: 1107659350046283876, guid: 38d88678b4b741a42a8888bad96931d1, type: 2}
+    - {fileID: -2989233268217204190, guid: c5a4a9aca24d94341a13c065c07dbef4, type: 2}
+    - {fileID: 6059059685629960802, guid: 723cebc7919fe114d8ed02bfd36366f0, type: 2}
     m_ValueSerializationHelper:
     - e00: 1
       e01: 0
       e02: 0
-      e03: 0
+      e03: -258.5
       e10: 0
       e11: 1
       e12: 0
-      e13: 0
+      e13: -7
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.2031579
+      e01: 0
+      e02: 0
+      e03: 4.842102
+      e10: 0
+      e11: 0.2031579
+      e12: 0
+      e13: 78.73158
       e20: 0
       e21: 0
       e22: 1
@@ -42301,10 +44695,10 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 38d88678b4b741a42a8888bad96931d1,
+  m_AnimatorController: {fileID: 9100000, guid: 723cebc7919fe114d8ed02bfd36366f0,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 1107659350046283876, guid: 38d88678b4b741a42a8888bad96931d1,
+  - m_Target: {fileID: 6059059685629960802, guid: 723cebc7919fe114d8ed02bfd36366f0,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -42318,7 +44712,7 @@ MonoBehaviour:
   m_CurrentEditor: 1
   m_LayerEditor:
     m_SelectedLayerIndex: 0
---- !u!114 &23
+--- !u!114 &24
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -42334,15 +44728,15 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-    m_Image: {fileID: 8356117983803934776, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -6905738622615590433, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 1082
-    y: 330.4
+    y: 78.4
     width: 447
-    height: 447
+    height: 699
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
@@ -42356,7 +44750,7 @@ MonoBehaviour:
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
---- !u!114 &24
+--- !u!114 &25
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -42372,7 +44766,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Lighting
-    m_Image: {fileID: 4345591932164060902, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 8394858894532624064, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -42382,7 +44776,7 @@ MonoBehaviour:
     width: 451
     height: 457
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &25
+--- !u!114 &26
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -42407,4 +44801,29 @@ MonoBehaviour:
     y: 328
     width: 451
     height: 457
+  m_ViewDataDictionary: {fileID: 0}
+--- !u!114 &27
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12059, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEditor:UnityEditor.PackageManager.UI:PackageManagerProjectSettings
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Failed to load
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 320
+    height: 550
   m_ViewDataDictionary: {fileID: 0}

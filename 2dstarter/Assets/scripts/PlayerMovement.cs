@@ -35,14 +35,25 @@ public class PlayerMovement : MonoBehaviour
 
         if (manager.Health == 0)
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(2);
         }
     }
 
     void MoveChar()
     {
+        
+        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D))
+        {
+            animator.Play("running");
+                       
+        }
+        else
+        {
+            animator.Play("idleChar");
+        }
         float movementX = Input.GetAxis("Horizontal");
         transform.position += new Vector3(movementX * speed * Time.deltaTime, 0, 0);
+        //animator.Play("running");
         Vector3 scale = transform.localScale;
         if (movementX != 0)
         {
@@ -53,25 +64,15 @@ public class PlayerMovement : MonoBehaviour
                 transform.localScale = scale;
             }
         }
-        
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            animator.Play("running");
-                       
-        }
-        else
-        {
-            animator.Play("idleChar");
-        }
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            animator.Play("running");
+        //if (Input.GetKeyUp(KeyCode.D))
+        //{
+        //    animator.Play("idleChar");
 
-        }
-        else
-        {
-            animator.Play("idleChar");
-        }
+        //}
+        //else
+        //{
+        //    animator.Play("running");
+        //}
 
     }
     
@@ -81,7 +82,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.W))
         {
             RaycastHit2D hit2D = Physics2D.Raycast(transform.position, Vector2.down, 3f, Ground);
-                animator.Play("jumping");
+               // animator.Play("jumping");
             if (hit2D && hit2D.distance < halfHeight)
             {
                 rigidBody.velocity = new Vector3(0, vSpeed);
@@ -102,11 +103,12 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.tag == "DeathZone")
         {
             SceneManager.LoadScene(1);
+            manager.Health--;
         }
 
         if (collision.gameObject.tag == "gate")
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(3);
         }
     }
 }

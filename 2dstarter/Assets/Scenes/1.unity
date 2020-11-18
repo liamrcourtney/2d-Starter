@@ -200,7 +200,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 15528202}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -36.7, y: -9.7, z: 0}
+  m_LocalPosition: {x: -37.59, y: -10.06, z: 0}
   m_LocalScale: {x: 0.13743, y: 0.13743, z: 0.13743}
   m_Children: []
   m_Father: {fileID: 0}
@@ -218,7 +218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 777df0ab8fbe2c9409ec19e6d0646c56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 5
   vSpeed: 8
   Ground:
     serializedVersion: 2
@@ -236,7 +236,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -4.625249, y: 0.26812506}
+  m_Offset: {x: -3.0783324, y: 0.26812506}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -247,7 +247,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 11.597284, y: 12.336873}
+  m_Size: {x: 8.503452, y: 12.336873}
   m_EdgeRadius: 0
 --- !u!50 &15528207
 Rigidbody2D:
@@ -1474,12 +1474,12 @@ PrefabInstance:
     - target: {fileID: 7343985586288296466, guid: 74bf38872cf17a44b951a43ae4272087,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 45.59
+      value: 13.37
       objectReference: {fileID: 0}
     - target: {fileID: 7343985586288296466, guid: 74bf38872cf17a44b951a43ae4272087,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -13.94
+      value: -14.09
       objectReference: {fileID: 0}
     - target: {fileID: 7343985586288296466, guid: 74bf38872cf17a44b951a43ae4272087,
         type: 3}
@@ -9588,7 +9588,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 400, y: 200}
+  m_ReferenceResolution: {x: 476.8, y: 190.7}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
@@ -9653,6 +9653,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1968937769}
   - component: {fileID: 1968937768}
+  - component: {fileID: 1968937770}
   m_Layer: 0
   m_Name: gate
   m_TagString: gate
@@ -9724,6 +9725,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1968937770
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968937767}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.025779724, y: 0.05154705}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8.6, y: 6.37}
+    newSize: {x: 8.6, y: 6.37}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.9081268, y: 5.132887}
+  m_EdgeRadius: 0
 --- !u!1001 &2044081516
 PrefabInstance:
   m_ObjectHideFlags: 0

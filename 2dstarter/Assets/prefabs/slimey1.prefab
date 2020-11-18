@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 1987748520073702433}
   - component: {fileID: 6697159550876650831}
   - component: {fileID: -7413923403066199551}
+  - component: {fileID: 6166098083714865826}
+  - component: {fileID: 27592948646166982}
   m_Layer: 0
   m_Name: slimey1
   m_TagString: enemy
@@ -116,7 +118,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.061969783}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -127,7 +129,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.32, y: 0.32}
+  m_Size: {x: 0.32, y: 0.19606042}
   m_EdgeRadius: 0
 --- !u!114 &-7413923403066199551
 MonoBehaviour:
@@ -141,3 +143,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ae6c67a7a3e3854cbef9c023c78e857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6166098083714865826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2924030580132468949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8a1609bb4c61a74ea5c9ff53027fd9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemySpeed: 1
+  RightMove: 0
+--- !u!50 &27592948646166982
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2924030580132468949}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 6
